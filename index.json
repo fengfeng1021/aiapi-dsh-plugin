@@ -2,17 +2,24 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.3.5",
+    "version": "1.3.6",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.3.5.tgz",
-    "sha256": "eeeb229eaa3f1fda1d03e44f540129898c8ecc156f040475718e5bdd2a0cbeba",
+    "versioned": "aiapi-customizations-1.3.6.tgz",
+    "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
+    "sha256": "292b78a16110973ae0460446f8e53b2995dfd5af5ea6ae24a07b2f760622f7e8",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T12:40:36.306Z",
-    "notes": "更新來源改由靜態雲端託管（不再經過 AIAPI）；未設定時卡片顯示提示"
+    "publishedAt": "2026-10-27T13:23:43.671Z",
+    "notes": "更新來源改為 GitHub Pages（fengfeng1021/aiapi-dsh-plugin）"
   },
   "history": [
+    {
+      "version": "1.3.6",
+      "sha256": "292b78a16110973ae0460446f8e53b2995dfd5af5ea6ae24a07b2f760622f7e8",
+      "publishedAt": "2026-10-27T13:23:43.671Z",
+      "notes": "更新來源改為 GitHub Pages（fengfeng1021/aiapi-dsh-plugin）"
+    },
     {
       "version": "1.3.5",
       "sha256": "eeeb229eaa3f1fda1d03e44f540129898c8ecc156f040475718e5bdd2a0cbeba",
