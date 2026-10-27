@@ -2,64 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.3.6",
+    "version": "1.3.7",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.3.6.tgz",
+    "versioned": "aiapi-customizations-1.3.7.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "292b78a16110973ae0460446f8e53b2995dfd5af5ea6ae24a07b2f760622f7e8",
+    "sha256": "b89b8fcda6925f5b26a6031d5f9bb2268e9eaf0d3b51964fa93153f4aed8b916",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T13:23:43.671Z",
-    "notes": "更新來源改為 GitHub Pages（fengfeng1021/aiapi-dsh-plugin）",
+    "publishedAt": "2026-10-27T13:46:06.192Z",
+    "notes": "模型頁：AI API 帳號列與清除連接；裝置授權頁修好（確認授權可點）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5270924,
-      "sha256": "8b26a78e3404a9310ebfae5e1fe202ba6df7ca46b3417838c2d43272283689ac"
+      "bytes": 5272759,
+      "sha256": "410d36580343310e3f4db2708d47d9c30fafb5e3fff18ca84d0c93c489bf73b4"
     }
   },
   "history": [
     {
-      "version": "1.3.6",
-      "sha256": "292b78a16110973ae0460446f8e53b2995dfd5af5ea6ae24a07b2f760622f7e8",
-      "publishedAt": "2026-10-27T13:23:43.671Z",
-      "notes": "更新來源改為 GitHub Pages（fengfeng1021/aiapi-dsh-plugin）"
-    },
-    {
-      "version": "1.3.5",
-      "sha256": "eeeb229eaa3f1fda1d03e44f540129898c8ecc156f040475718e5bdd2a0cbeba",
-      "publishedAt": "2026-10-27T12:40:36.306Z",
-      "notes": "更新來源改由靜態雲端託管（不再經過 AIAPI）；未設定時卡片顯示提示"
-    },
-    {
-      "version": "1.3.4",
-      "sha256": "c2b4e425d4884d993a9bc24ebc2ad56b934143ee76988bb6765f2fa6cdbe9762",
-      "publishedAt": "2026-10-27T12:31:14.093Z",
-      "notes": "穩定檔名 latest.tgz；gateway 內嵌一次佔位檔後，之後換檔即生效、免重啟"
-    },
-    {
-      "version": "1.3.3",
-      "sha256": "a095342a0fdc33eaac3715b48ac1543849dc700cb82a4a7d211e4fdb583dcb72",
-      "publishedAt": "2026-10-27T12:17:13.808Z",
-      "notes": "模型清單改用別名比對，帳號只列舊名也能抓到 deepseek-v4.1-flash；移除停用警告；一鍵更新"
-    },
-    {
-      "version": "1.3.2",
-      "sha256": "48bd514aa56dbf06fa79386e574530a3333d44fe3c9c279cf122c373f2143542",
-      "publishedAt": "2026-10-27T12:05:42.011Z",
-      "notes": "一鍵更新；更新來源改在 aiapi.tw/install/aiapi-customizations/；智能配色；deepseek-v4.1-flash"
-    },
-    {
-      "version": "1.3.1",
-      "sha256": "a47458046764a08b2359332d4257991b95d90ebd90ac0511c175d58e911f1724",
-      "publishedAt": "2026-10-27T10:17:46.952Z",
-      "notes": "一鍵更新（宿主呼叫 plugin-manager 安裝新版本）；智能配色；deepseek-v4.1-flash"
-    },
-    {
-      "version": "1.3.0",
-      "sha256": "b1cceb0ffefc95759d7659bc39fc4b4ad4511594da9443fda545d0d66fce5668",
-      "publishedAt": "2026-10-27T10:14:13.423Z",
-      "notes": "逐項功能開關在插件頁；一般 DSH 帳號登入；模型改 deepseek-v4.1-flash；配色改稱智能配色"
+      "version": "1.3.7",
+      "sha256": "b89b8fcda6925f5b26a6031d5f9bb2268e9eaf0d3b51964fa93153f4aed8b916",
+      "publishedAt": "2026-10-27T13:46:06.192Z",
+      "notes": "模型頁：AI API 帳號列與清除連接；裝置授權頁修好（確認授權可點）"
     }
   ]
 }
