@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.7.0",
+    "version": "1.7.1",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.7.0.tgz",
+    "versioned": "aiapi-customizations-1.7.1.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "f9d3e343a807fe557ac397a2dbfc775c60488c16741a2fe384dec240aebb6957",
+    "sha256": "d0efc190294214aabd72b86beacd6d2ce2954c816130199162acc937336905f0",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T14:52:14.092Z",
-    "notes": "移除任務狀態與原話查找、原生拖放與對話交接（官方桌面端已有拖放，交接隨任務狀態一併移除）",
+    "publishedAt": "2026-10-27T14:55:49.855Z",
+    "notes": "更新流程：管理器安裝後驗證磁碟版本，失敗則直接覆寫已安裝檔案；補上 update/status 路由",
     "zip": {
       "file": "latest.zip",
-      "bytes": 663340,
-      "sha256": "7554a3ac3ce3f7ffb7510a0366dcb13f21cfe6c1c7a726ab9a55ea04c76313e0"
+      "bytes": 666370,
+      "sha256": "fce213680c57c179f165378926a4e80024e296b56e332eba4cae03a9fc7d85ec"
     }
   },
   "history": [
     {
-      "version": "1.7.0",
-      "sha256": "f9d3e343a807fe557ac397a2dbfc775c60488c16741a2fe384dec240aebb6957",
-      "publishedAt": "2026-10-27T14:52:14.092Z",
-      "notes": "移除任務狀態與原話查找、原生拖放與對話交接（官方桌面端已有拖放，交接隨任務狀態一併移除）"
+      "version": "1.7.1",
+      "sha256": "d0efc190294214aabd72b86beacd6d2ce2954c816130199162acc937336905f0",
+      "publishedAt": "2026-10-27T14:55:49.855Z",
+      "notes": "更新流程：管理器安裝後驗證磁碟版本，失敗則直接覆寫已安裝檔案；補上 update/status 路由"
     }
   ]
 }
