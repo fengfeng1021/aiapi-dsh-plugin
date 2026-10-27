@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.7.1",
+    "version": "1.7.2",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.7.1.tgz",
+    "versioned": "aiapi-customizations-1.7.2.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "d0efc190294214aabd72b86beacd6d2ce2954c816130199162acc937336905f0",
+    "sha256": "8a169760440fb5e414f638599c9230a3b2685d070833c258995e7741c3690981",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T14:55:49.855Z",
-    "notes": "更新流程：管理器安裝後驗證磁碟版本，失敗則直接覆寫已安裝檔案；補上 update/status 路由",
+    "publishedAt": "2026-10-27T15:04:31.376Z",
+    "notes": "登入改用裝置代碼為預設（不再依賴 aiapi-agent:// 回呼），桌面回呼保留為備援",
     "zip": {
       "file": "latest.zip",
-      "bytes": 666370,
-      "sha256": "fce213680c57c179f165378926a4e80024e296b56e332eba4cae03a9fc7d85ec"
+      "bytes": 673574,
+      "sha256": "8a88bc5ce8fadf49903f999be1219930c0cd0d624e1dcb0a7e7e5a3d0e9fa299"
     }
   },
   "history": [
     {
-      "version": "1.7.1",
-      "sha256": "d0efc190294214aabd72b86beacd6d2ce2954c816130199162acc937336905f0",
-      "publishedAt": "2026-10-27T14:55:49.855Z",
-      "notes": "更新流程：管理器安裝後驗證磁碟版本，失敗則直接覆寫已安裝檔案；補上 update/status 路由"
+      "version": "1.7.2",
+      "sha256": "8a169760440fb5e414f638599c9230a3b2685d070833c258995e7741c3690981",
+      "publishedAt": "2026-10-27T15:04:31.376Z",
+      "notes": "登入改用裝置代碼為預設（不再依賴 aiapi-agent:// 回呼），桌面回呼保留為備援"
     }
   ]
 }
