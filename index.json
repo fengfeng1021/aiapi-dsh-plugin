@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.4.1",
+    "version": "1.5.0",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.4.1.tgz",
+    "versioned": "aiapi-customizations-1.5.0.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "070ee5829a6d4219830e67880a3277527eaa866e2e813795e1fd53d2d43671f1",
+    "sha256": "3ec0b2992caec246501c79769334833cbb6f6ebbfafadf4cedcd9cd5326ff2c4",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T14:21:50.197Z",
-    "notes": "更新來源改成程式內建預設（profile patch 覆寫 config 也不會失效）；要停用寫 updateManifestUrl: off",
+    "publishedAt": "2026-10-27T14:27:15.085Z",
+    "notes": "固定啟用品牌與模型；通訊功能改名；刪除子代理模型（官方已有）；桌面模組去掉檔案位置與回合導覽（官方已有）；Skills 管理加搜尋/重整/防重複送出",
     "zip": {
       "file": "latest.zip",
-      "bytes": 752667,
-      "sha256": "34a0bfcfaaf070e31fb155916852ea8c169abcb05aaf4961619ef6e1c68f5b6a"
+      "bytes": 726549,
+      "sha256": "98cd988534bdb3500b82c5c9a55123db0a62702a4a628feb68e62c7498df106f"
     }
   },
   "history": [
     {
-      "version": "1.4.1",
-      "sha256": "070ee5829a6d4219830e67880a3277527eaa866e2e813795e1fd53d2d43671f1",
-      "publishedAt": "2026-10-27T14:21:50.197Z",
-      "notes": "更新來源改成程式內建預設（profile patch 覆寫 config 也不會失效）；要停用寫 updateManifestUrl: off"
+      "version": "1.5.0",
+      "sha256": "3ec0b2992caec246501c79769334833cbb6f6ebbfafadf4cedcd9cd5326ff2c4",
+      "publishedAt": "2026-10-27T14:27:15.085Z",
+      "notes": "固定啟用品牌與模型；通訊功能改名；刪除子代理模型（官方已有）；桌面模組去掉檔案位置與回合導覽（官方已有）；Skills 管理加搜尋/重整/防重複送出"
     }
   ]
 }
