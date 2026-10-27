@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.3.8",
+    "version": "1.4.0",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.3.8.tgz",
+    "versioned": "aiapi-customizations-1.4.0.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "ccca05975b86491e404b323327b7d62d93b7be95250594f87cbe8dd127482021",
+    "sha256": "b889d4435a02e20539a6729f9d1f0038fcdc3d6af35b09e9a0e888583da4a6b1",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T13:48:39.364Z",
-    "notes": "系統瀏覽器改為 opt-in（預設關閉，不再覆寫官方 browser）；模型頁 AI API 帳號列與清除連接",
+    "publishedAt": "2026-10-27T14:19:21.997Z",
+    "notes": "移除系統瀏覽器功能（含 puppeteer-core 依賴）；模型頁 AI API 帳號列與清除連接",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5273129,
-      "sha256": "91beae115f166f2c19be0cd31277a42a1d0a17f70c0d9f3f8313c8e07688995e"
+      "bytes": 751799,
+      "sha256": "3ec2c13834b22889c463b6a20b65b9c770a96077abd63917c3d9f40751785a59"
     }
   },
   "history": [
     {
-      "version": "1.3.8",
-      "sha256": "ccca05975b86491e404b323327b7d62d93b7be95250594f87cbe8dd127482021",
-      "publishedAt": "2026-10-27T13:48:39.364Z",
-      "notes": "系統瀏覽器改為 opt-in（預設關閉，不再覆寫官方 browser）；模型頁 AI API 帳號列與清除連接"
+      "version": "1.4.0",
+      "sha256": "b889d4435a02e20539a6729f9d1f0038fcdc3d6af35b09e9a0e888583da4a6b1",
+      "publishedAt": "2026-10-27T14:19:21.997Z",
+      "notes": "移除系統瀏覽器功能（含 puppeteer-core 依賴）；模型頁 AI API 帳號列與清除連接"
     }
   ]
 }
