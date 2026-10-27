@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.6.0",
+    "version": "1.6.1",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.6.0.tgz",
+    "versioned": "aiapi-customizations-1.6.1.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "387fc0a37c55cceef05af1db178c5916c22d7c55a1a9339f7a24741a61edbea0",
+    "sha256": "fbeb2beaec6c64cee7ad03e6ee17569944b82b6a60dff839fb1039694ea28ea6",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T14:38:02.433Z",
-    "notes": "工程審查改成單一引導 skill 的包（不再注入提示、六份審查文件不登記）",
+    "publishedAt": "2026-10-27T14:40:13.218Z",
+    "notes": "更新改為回報真實安裝結果：區分需重啟/可熱重載/失敗，並偵測磁碟版本與執行中版本差異",
     "zip": {
       "file": "latest.zip",
-      "bytes": 735742,
-      "sha256": "02a1cebf69cf3861e8987e1ad3e0ea24f8771c17d737c99f9949fe33996f418a"
+      "bytes": 739930,
+      "sha256": "93116c46015264bffc797ffbb589cc4e2bd9efe02dafd8c03f675cecc011ae31"
     }
   },
   "history": [
     {
-      "version": "1.6.0",
-      "sha256": "387fc0a37c55cceef05af1db178c5916c22d7c55a1a9339f7a24741a61edbea0",
-      "publishedAt": "2026-10-27T14:38:02.433Z",
-      "notes": "工程審查改成單一引導 skill 的包（不再注入提示、六份審查文件不登記）"
+      "version": "1.6.1",
+      "sha256": "fbeb2beaec6c64cee7ad03e6ee17569944b82b6a60dff839fb1039694ea28ea6",
+      "publishedAt": "2026-10-27T14:40:13.218Z",
+      "notes": "更新改為回報真實安裝結果：區分需重啟/可熱重載/失敗，並偵測磁碟版本與執行中版本差異"
     }
   ]
 }
