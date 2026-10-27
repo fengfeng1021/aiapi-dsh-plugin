@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.6.1",
+    "version": "1.7.0",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.6.1.tgz",
+    "versioned": "aiapi-customizations-1.7.0.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "fbeb2beaec6c64cee7ad03e6ee17569944b82b6a60dff839fb1039694ea28ea6",
+    "sha256": "f9d3e343a807fe557ac397a2dbfc775c60488c16741a2fe384dec240aebb6957",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T14:40:13.218Z",
-    "notes": "更新改為回報真實安裝結果：區分需重啟/可熱重載/失敗，並偵測磁碟版本與執行中版本差異",
+    "publishedAt": "2026-10-27T14:52:14.092Z",
+    "notes": "移除任務狀態與原話查找、原生拖放與對話交接（官方桌面端已有拖放，交接隨任務狀態一併移除）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 739930,
-      "sha256": "93116c46015264bffc797ffbb589cc4e2bd9efe02dafd8c03f675cecc011ae31"
+      "bytes": 663340,
+      "sha256": "7554a3ac3ce3f7ffb7510a0366dcb13f21cfe6c1c7a726ab9a55ea04c76313e0"
     }
   },
   "history": [
     {
-      "version": "1.6.1",
-      "sha256": "fbeb2beaec6c64cee7ad03e6ee17569944b82b6a60dff839fb1039694ea28ea6",
-      "publishedAt": "2026-10-27T14:40:13.218Z",
-      "notes": "更新改為回報真實安裝結果：區分需重啟/可熱重載/失敗，並偵測磁碟版本與執行中版本差異"
+      "version": "1.7.0",
+      "sha256": "f9d3e343a807fe557ac397a2dbfc775c60488c16741a2fe384dec240aebb6957",
+      "publishedAt": "2026-10-27T14:52:14.092Z",
+      "notes": "移除任務狀態與原話查找、原生拖放與對話交接（官方桌面端已有拖放，交接隨任務狀態一併移除）"
     }
   ]
 }
