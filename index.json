@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.5.1",
+    "version": "1.6.0",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.5.1.tgz",
+    "versioned": "aiapi-customizations-1.6.0.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "ac8140cf9229484ef68e71dfca9e467d254c33e2b3740cb57400670e727d48db",
+    "sha256": "387fc0a37c55cceef05af1db178c5916c22d7c55a1a9339f7a24741a61edbea0",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T14:30:50.815Z",
-    "notes": "更新卡片版本比較修正；落後時每次開啟 DSH 右下角提醒可更新",
+    "publishedAt": "2026-10-27T14:38:02.433Z",
+    "notes": "工程審查改成單一引導 skill 的包（不再注入提示、六份審查文件不登記）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 732913,
-      "sha256": "4d7d9bbece3fa6bc5b64490a8dd3a5a6382a34a77ed771865516b1530a97f3b4"
+      "bytes": 735742,
+      "sha256": "02a1cebf69cf3861e8987e1ad3e0ea24f8771c17d737c99f9949fe33996f418a"
     }
   },
   "history": [
     {
-      "version": "1.5.1",
-      "sha256": "ac8140cf9229484ef68e71dfca9e467d254c33e2b3740cb57400670e727d48db",
-      "publishedAt": "2026-10-27T14:30:50.815Z",
-      "notes": "更新卡片版本比較修正；落後時每次開啟 DSH 右下角提醒可更新"
+      "version": "1.6.0",
+      "sha256": "387fc0a37c55cceef05af1db178c5916c22d7c55a1a9339f7a24741a61edbea0",
+      "publishedAt": "2026-10-27T14:38:02.433Z",
+      "notes": "工程審查改成單一引導 skill 的包（不再注入提示、六份審查文件不登記）"
     }
   ]
 }
