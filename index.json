@@ -2,18 +2,24 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.2",
+    "version": "1.9.3",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.2.tgz",
+    "versioned": "aiapi-customizations-1.9.3.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "86f627861570a917ecd9a9f8857933839f8420d285c75182c97a9e72f78adaed",
+    "sha256": "6e58bf0ad713b20c200de42ed86bb2f62651d6f5086bdb79ede1fc0a0014d6a1",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T16:00:21.522Z",
-    "notes": "模型清單補上思考等級預設（修 reasoning effort max 被本地擋下）；供應商設定同步"
+    "publishedAt": "2026-10-28T16:01:52.929Z",
+    "notes": "思考等級回到 low/high/max（不加 medium、不加 off），供應商設定與模型清單一致"
   },
   "history": [
+    {
+      "version": "1.9.3",
+      "sha256": "6e58bf0ad713b20c200de42ed86bb2f62651d6f5086bdb79ede1fc0a0014d6a1",
+      "publishedAt": "2026-10-28T16:01:52.929Z",
+      "notes": "思考等級回到 low/high/max（不加 medium、不加 off），供應商設定與模型清單一致"
+    },
     {
       "version": "1.9.2",
       "sha256": "86f627861570a917ecd9a9f8857933839f8420d285c75182c97a9e72f78adaed",
@@ -127,12 +133,6 @@
       "sha256": "f9d3e343a807fe557ac397a2dbfc775c60488c16741a2fe384dec240aebb6957",
       "publishedAt": "2026-10-27T14:52:14.092Z",
       "notes": "移除任務狀態與原話查找、原生拖放與對話交接（官方桌面端已有拖放，交接隨任務狀態一併移除）"
-    },
-    {
-      "version": "1.6.1",
-      "sha256": "fbeb2beaec6c64cee7ad03e6ee17569944b82b6a60dff839fb1039694ea28ea6",
-      "publishedAt": "2026-10-27T14:40:13.218Z",
-      "notes": "更新改為回報真實安裝結果：區分需重啟/可熱重載/失敗，並偵測磁碟版本與執行中版本差異"
     }
   ]
 }
