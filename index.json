@@ -2,18 +2,24 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.8.8",
+    "version": "1.8.9",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.8.8.tgz",
+    "versioned": "aiapi-customizations-1.8.9.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "52a9e152f0daf60e625c1a1b92a7b0310bb053a85ed573e6c322e50b16340a34",
+    "sha256": "6041ad00d6b34ff933757d6242752902f129ff0098883e07ef9504a85b303f80",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T15:31:59.644Z",
-    "notes": "修好設定頁「reporting is not defined」；外掛自帶 logo；新增元件渲染測試"
+    "publishedAt": "2026-10-28T15:38:54.665Z",
+    "notes": "更新後自動重載介面（不必重啟 DSH）；只有 host 端變更才提示重啟"
   },
   "history": [
+    {
+      "version": "1.8.9",
+      "sha256": "6041ad00d6b34ff933757d6242752902f129ff0098883e07ef9504a85b303f80",
+      "publishedAt": "2026-10-28T15:38:54.665Z",
+      "notes": "更新後自動重載介面（不必重啟 DSH）；只有 host 端變更才提示重啟"
+    },
     {
       "version": "1.8.8",
       "sha256": "52a9e152f0daf60e625c1a1b92a7b0310bb053a85ed573e6c322e50b16340a34",
@@ -127,12 +133,6 @@
       "sha256": "3ec0b2992caec246501c79769334833cbb6f6ebbfafadf4cedcd9cd5326ff2c4",
       "publishedAt": "2026-10-27T14:27:15.085Z",
       "notes": "固定啟用品牌與模型；通訊功能改名；刪除子代理模型（官方已有）；桌面模組去掉檔案位置與回合導覽（官方已有）；Skills 管理加搜尋/重整/防重複送出"
-    },
-    {
-      "version": "1.4.1",
-      "sha256": "070ee5829a6d4219830e67880a3277527eaa866e2e813795e1fd53d2d43671f1",
-      "publishedAt": "2026-10-27T14:21:50.197Z",
-      "notes": "更新來源改成程式內建預設（profile patch 覆寫 config 也不會失效）；要停用寫 updateManifestUrl: off"
     }
   ]
 }
