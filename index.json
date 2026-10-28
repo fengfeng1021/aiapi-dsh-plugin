@@ -2,18 +2,24 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.4",
+    "version": "1.9.5",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.4.tgz",
+    "versioned": "aiapi-customizations-1.9.5.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "02d29cd5c9e1223fa2f899c5319b6f5e42eb2a962689671f52a7e682bcbd99aa",
+    "sha256": "6fe3badb3ae269cc67ff85ad474abd7a86fd65818f57f98a53f817536759a75b",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T16:08:42.483Z",
-    "notes": "修正餘額／錯誤回報請求路徑（改為相對 document.baseURI），修好帳號卡「讀取失敗（回應 400）」"
+    "publishedAt": "2026-10-28T16:10:45.222Z",
+    "notes": "手動複製資料夾安裝時（沒有 node_modules）也能啟用：schema 依賴缺失自動降級；建議改用 tgz 直連安裝"
   },
   "history": [
+    {
+      "version": "1.9.5",
+      "sha256": "6fe3badb3ae269cc67ff85ad474abd7a86fd65818f57f98a53f817536759a75b",
+      "publishedAt": "2026-10-28T16:10:45.222Z",
+      "notes": "手動複製資料夾安裝時（沒有 node_modules）也能啟用：schema 依賴缺失自動降級；建議改用 tgz 直連安裝"
+    },
     {
       "version": "1.9.4",
       "sha256": "02d29cd5c9e1223fa2f899c5319b6f5e42eb2a962689671f52a7e682bcbd99aa",
@@ -127,12 +133,6 @@
       "sha256": "8a169760440fb5e414f638599c9230a3b2685d070833c258995e7741c3690981",
       "publishedAt": "2026-10-27T15:04:31.376Z",
       "notes": "登入改用裝置代碼為預設（不再依賴 aiapi-agent:// 回呼），桌面回呼保留為備援"
-    },
-    {
-      "version": "1.7.1",
-      "sha256": "d0efc190294214aabd72b86beacd6d2ce2954c816130199162acc937336905f0",
-      "publishedAt": "2026-10-27T14:55:49.855Z",
-      "notes": "更新流程：管理器安裝後驗證磁碟版本，失敗則直接覆寫已安裝檔案；補上 update/status 路由"
     }
   ]
 }
