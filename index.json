@@ -2,18 +2,24 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.1",
+    "version": "1.9.2",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.1.tgz",
+    "versioned": "aiapi-customizations-1.9.2.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "ad54ac2f1cb830fd43cee78cf66bc0dfa126f0432d5e04743de2c5828001243d",
+    "sha256": "86f627861570a917ecd9a9f8857933839f8420d285c75182c97a9e72f78adaed",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T15:53:56.128Z",
-    "notes": "1.9.1：附上供應商註冊的測試（涵蓋無 Smart Key 與既有供應商不被覆蓋）"
+    "publishedAt": "2026-10-28T16:00:21.522Z",
+    "notes": "模型清單補上思考等級預設（修 reasoning effort max 被本地擋下）；供應商設定同步"
   },
   "history": [
+    {
+      "version": "1.9.2",
+      "sha256": "86f627861570a917ecd9a9f8857933839f8420d285c75182c97a9e72f78adaed",
+      "publishedAt": "2026-10-28T16:00:21.522Z",
+      "notes": "模型清單補上思考等級預設（修 reasoning effort max 被本地擋下）；供應商設定同步"
+    },
     {
       "version": "1.9.1",
       "sha256": "ad54ac2f1cb830fd43cee78cf66bc0dfa126f0432d5e04743de2c5828001243d",
@@ -127,12 +133,6 @@
       "sha256": "fbeb2beaec6c64cee7ad03e6ee17569944b82b6a60dff839fb1039694ea28ea6",
       "publishedAt": "2026-10-27T14:40:13.218Z",
       "notes": "更新改為回報真實安裝結果：區分需重啟/可熱重載/失敗，並偵測磁碟版本與執行中版本差異"
-    },
-    {
-      "version": "1.6.0",
-      "sha256": "387fc0a37c55cceef05af1db178c5916c22d7c55a1a9339f7a24741a61edbea0",
-      "publishedAt": "2026-10-27T14:38:02.433Z",
-      "notes": "工程審查改成單一引導 skill 的包（不再注入提示、六份審查文件不登記）"
     }
   ]
 }
