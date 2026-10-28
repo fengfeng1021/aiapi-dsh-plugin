@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.8.6",
+    "version": "1.8.7",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.8.6.tgz",
+    "versioned": "aiapi-customizations-1.8.7.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "c1f8b3008e86709244ee1e9d980d3257ef706ea3b490ec0443974b7d139512b1",
+    "sha256": "8c92d47d1bbf1cb4a78c9a12275a1c563f9bafbdfd70f0234ab6980bc9184919",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T12:21:06.624Z",
-    "notes": "修好餘額條與餘額卡（balanceFlag 未定義），並加上 client bundle 冒煙測試",
+    "publishedAt": "2026-10-28T12:30:50.456Z",
+    "notes": "使用者端錯誤自動回傳（可在設定頁關閉），落地到平台錯誤日誌",
     "zip": {
       "file": "latest.zip",
-      "bytes": 718276,
-      "sha256": "915d981057db4a71d702c8818963c1585a80e8e42816a45163d86630baf065e2"
+      "bytes": 729795,
+      "sha256": "add0de11346b411a6775b5981c29463f50f6151898806b0734bd71df54c28d67"
     }
   },
   "history": [
     {
-      "version": "1.8.6",
-      "sha256": "c1f8b3008e86709244ee1e9d980d3257ef706ea3b490ec0443974b7d139512b1",
-      "publishedAt": "2026-10-28T12:21:06.624Z",
-      "notes": "修好餘額條與餘額卡（balanceFlag 未定義），並加上 client bundle 冒煙測試"
+      "version": "1.8.7",
+      "sha256": "8c92d47d1bbf1cb4a78c9a12275a1c563f9bafbdfd70f0234ab6980bc9184919",
+      "publishedAt": "2026-10-28T12:30:50.456Z",
+      "notes": "使用者端錯誤自動回傳（可在設定頁關閉），落地到平台錯誤日誌"
     }
   ]
 }
