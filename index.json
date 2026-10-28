@@ -2,18 +2,24 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.8.9",
+    "version": "1.9.0",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.8.9.tgz",
+    "versioned": "aiapi-customizations-1.9.0.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "6041ad00d6b34ff933757d6242752902f129ff0098883e07ef9504a85b303f80",
+    "sha256": "768b825e6339ef4aa99bea2ed7ca0b6c6994666171018b405e50772babebf421",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T15:38:54.665Z",
-    "notes": "更新後自動重載介面（不必重啟 DSH）；只有 host 端變更才提示重啟"
+    "publishedAt": "2026-10-28T15:52:34.278Z",
+    "notes": "自動把 AIAPI 註冊成模型供應商（模型頁看得到）；帳號與餘額併入官方「設定→帳號」頁，不再另開側邊欄條目"
   },
   "history": [
+    {
+      "version": "1.9.0",
+      "sha256": "768b825e6339ef4aa99bea2ed7ca0b6c6994666171018b405e50772babebf421",
+      "publishedAt": "2026-10-28T15:52:34.278Z",
+      "notes": "自動把 AIAPI 註冊成模型供應商（模型頁看得到）；帳號與餘額併入官方「設定→帳號」頁，不再另開側邊欄條目"
+    },
     {
       "version": "1.8.9",
       "sha256": "6041ad00d6b34ff933757d6242752902f129ff0098883e07ef9504a85b303f80",
@@ -127,12 +133,6 @@
       "sha256": "ac8140cf9229484ef68e71dfca9e467d254c33e2b3740cb57400670e727d48db",
       "publishedAt": "2026-10-27T14:30:50.815Z",
       "notes": "更新卡片版本比較修正；落後時每次開啟 DSH 右下角提醒可更新"
-    },
-    {
-      "version": "1.5.0",
-      "sha256": "3ec0b2992caec246501c79769334833cbb6f6ebbfafadf4cedcd9cd5326ff2c4",
-      "publishedAt": "2026-10-27T14:27:15.085Z",
-      "notes": "固定啟用品牌與模型；通訊功能改名；刪除子代理模型（官方已有）；桌面模組去掉檔案位置與回合導覽（官方已有）；Skills 管理加搜尋/重整/防重複送出"
     }
   ]
 }
