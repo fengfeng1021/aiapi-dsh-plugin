@@ -2,18 +2,24 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.0",
+    "version": "1.9.1",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.0.tgz",
+    "versioned": "aiapi-customizations-1.9.1.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "768b825e6339ef4aa99bea2ed7ca0b6c6994666171018b405e50772babebf421",
+    "sha256": "ad54ac2f1cb830fd43cee78cf66bc0dfa126f0432d5e04743de2c5828001243d",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T15:52:34.278Z",
-    "notes": "自動把 AIAPI 註冊成模型供應商（模型頁看得到）；帳號與餘額併入官方「設定→帳號」頁，不再另開側邊欄條目"
+    "publishedAt": "2026-10-28T15:53:56.128Z",
+    "notes": "1.9.1：附上供應商註冊的測試（涵蓋無 Smart Key 與既有供應商不被覆蓋）"
   },
   "history": [
+    {
+      "version": "1.9.1",
+      "sha256": "ad54ac2f1cb830fd43cee78cf66bc0dfa126f0432d5e04743de2c5828001243d",
+      "publishedAt": "2026-10-28T15:53:56.128Z",
+      "notes": "1.9.1：附上供應商註冊的測試（涵蓋無 Smart Key 與既有供應商不被覆蓋）"
+    },
     {
       "version": "1.9.0",
       "sha256": "768b825e6339ef4aa99bea2ed7ca0b6c6994666171018b405e50772babebf421",
@@ -127,12 +133,6 @@
       "sha256": "387fc0a37c55cceef05af1db178c5916c22d7c55a1a9339f7a24741a61edbea0",
       "publishedAt": "2026-10-27T14:38:02.433Z",
       "notes": "工程審查改成單一引導 skill 的包（不再注入提示、六份審查文件不登記）"
-    },
-    {
-      "version": "1.5.1",
-      "sha256": "ac8140cf9229484ef68e71dfca9e467d254c33e2b3740cb57400670e727d48db",
-      "publishedAt": "2026-10-27T14:30:50.815Z",
-      "notes": "更新卡片版本比較修正；落後時每次開啟 DSH 右下角提醒可更新"
     }
   ]
 }
