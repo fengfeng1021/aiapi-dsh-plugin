@@ -2,18 +2,24 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.3",
+    "version": "1.9.4",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.3.tgz",
+    "versioned": "aiapi-customizations-1.9.4.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "6e58bf0ad713b20c200de42ed86bb2f62651d6f5086bdb79ede1fc0a0014d6a1",
+    "sha256": "02d29cd5c9e1223fa2f899c5319b6f5e42eb2a962689671f52a7e682bcbd99aa",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T16:01:52.929Z",
-    "notes": "思考等級回到 low/high/max（不加 medium、不加 off），供應商設定與模型清單一致"
+    "publishedAt": "2026-10-28T16:08:42.483Z",
+    "notes": "修正餘額／錯誤回報請求路徑（改為相對 document.baseURI），修好帳號卡「讀取失敗（回應 400）」"
   },
   "history": [
+    {
+      "version": "1.9.4",
+      "sha256": "02d29cd5c9e1223fa2f899c5319b6f5e42eb2a962689671f52a7e682bcbd99aa",
+      "publishedAt": "2026-10-28T16:08:42.483Z",
+      "notes": "修正餘額／錯誤回報請求路徑（改為相對 document.baseURI），修好帳號卡「讀取失敗（回應 400）」"
+    },
     {
       "version": "1.9.3",
       "sha256": "6e58bf0ad713b20c200de42ed86bb2f62651d6f5086bdb79ede1fc0a0014d6a1",
@@ -127,12 +133,6 @@
       "sha256": "d0efc190294214aabd72b86beacd6d2ce2954c816130199162acc937336905f0",
       "publishedAt": "2026-10-27T14:55:49.855Z",
       "notes": "更新流程：管理器安裝後驗證磁碟版本，失敗則直接覆寫已安裝檔案；補上 update/status 路由"
-    },
-    {
-      "version": "1.7.0",
-      "sha256": "f9d3e343a807fe557ac397a2dbfc775c60488c16741a2fe384dec240aebb6957",
-      "publishedAt": "2026-10-27T14:52:14.092Z",
-      "notes": "移除任務狀態與原話查找、原生拖放與對話交接（官方桌面端已有拖放，交接隨任務狀態一併移除）"
     }
   ]
 }
