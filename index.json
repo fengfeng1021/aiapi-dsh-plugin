@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.8.2",
+    "version": "1.8.3",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.8.2.tgz",
+    "versioned": "aiapi-customizations-1.8.3.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "89b257e352e5dbdcf4c327475b5b7eb95d6d7357674ed6a60f1a828d16bebed2",
+    "sha256": "704503d05bc56d2d0dbb1e18a7e93227958a7a5b51c1e1823a55b0471f1bf8bc",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T10:53:01.228Z",
-    "notes": "修好餘額條不出現（設定讀取用到未定義常數）與更新提示（請求 origin 解析）",
+    "publishedAt": "2026-10-28T11:00:19.212Z",
+    "notes": "設定頁新增「AIAPI 帳號」區塊：登入狀態、平台餘額、定額、分組與常駐餘額條開關",
     "zip": {
       "file": "latest.zip",
-      "bytes": 703142,
-      "sha256": "c73993d0e5ad6486d00bdedb38bed44ab4e3435907aa894715f7b11d5ef6e827"
+      "bytes": 711617,
+      "sha256": "a54a14a28118764d12186e323f9924b355cd0d3442891fb1ab9bad80fd1bf5b0"
     }
   },
   "history": [
     {
-      "version": "1.8.2",
-      "sha256": "89b257e352e5dbdcf4c327475b5b7eb95d6d7357674ed6a60f1a828d16bebed2",
-      "publishedAt": "2026-10-28T10:53:01.228Z",
-      "notes": "修好餘額條不出現（設定讀取用到未定義常數）與更新提示（請求 origin 解析）"
+      "version": "1.8.3",
+      "sha256": "704503d05bc56d2d0dbb1e18a7e93227958a7a5b51c1e1823a55b0471f1bf8bc",
+      "publishedAt": "2026-10-28T11:00:19.212Z",
+      "notes": "設定頁新增「AIAPI 帳號」區塊：登入狀態、平台餘額、定額、分組與常駐餘額條開關"
     }
   ]
 }
