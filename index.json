@@ -2,28 +2,137 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.8.7",
+    "version": "1.8.8",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.8.7.tgz",
+    "versioned": "aiapi-customizations-1.8.8.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "8c92d47d1bbf1cb4a78c9a12275a1c563f9bafbdfd70f0234ab6980bc9184919",
+    "sha256": "52a9e152f0daf60e625c1a1b92a7b0310bb053a85ed573e6c322e50b16340a34",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T12:30:50.456Z",
-    "notes": "使用者端錯誤自動回傳（可在設定頁關閉），落地到平台錯誤日誌",
-    "zip": {
-      "file": "latest.zip",
-      "bytes": 729795,
-      "sha256": "add0de11346b411a6775b5981c29463f50f6151898806b0734bd71df54c28d67"
-    }
+    "publishedAt": "2026-10-28T15:31:59.644Z",
+    "notes": "修好設定頁「reporting is not defined」；外掛自帶 logo；新增元件渲染測試"
   },
   "history": [
+    {
+      "version": "1.8.8",
+      "sha256": "52a9e152f0daf60e625c1a1b92a7b0310bb053a85ed573e6c322e50b16340a34",
+      "publishedAt": "2026-10-28T15:31:59.644Z",
+      "notes": "修好設定頁「reporting is not defined」；外掛自帶 logo；新增元件渲染測試"
+    },
     {
       "version": "1.8.7",
       "sha256": "8c92d47d1bbf1cb4a78c9a12275a1c563f9bafbdfd70f0234ab6980bc9184919",
       "publishedAt": "2026-10-28T12:30:50.456Z",
       "notes": "使用者端錯誤自動回傳（可在設定頁關閉），落地到平台錯誤日誌"
+    },
+    {
+      "version": "1.8.6",
+      "sha256": "c1f8b3008e86709244ee1e9d980d3257ef706ea3b490ec0443974b7d139512b1",
+      "publishedAt": "2026-10-28T12:21:06.624Z",
+      "notes": "修好餘額條與餘額卡（balanceFlag 未定義），並加上 client bundle 冒煙測試"
+    },
+    {
+      "version": "1.8.5",
+      "sha256": "6276c713d5954f657f3582eb73ede2ef0450fe8ab540d52c13fa56ade87653e9",
+      "publishedAt": "2026-10-28T11:40:22.118Z",
+      "notes": "卡片各自錯誤邊界＋全域錯誤紀錄＋版本顯示，讓「介面空白」能自我說明"
+    },
+    {
+      "version": "1.8.4",
+      "sha256": "86e2e05c8cbaa600cf505ce019b75fadcf8d88071500e9494a406486c66372f5",
+      "publishedAt": "2026-10-28T11:05:53.085Z",
+      "notes": "介面顯示實際執行版本，方便確認更新到底有沒有裝進去"
+    },
+    {
+      "version": "1.8.3",
+      "sha256": "704503d05bc56d2d0dbb1e18a7e93227958a7a5b51c1e1823a55b0471f1bf8bc",
+      "publishedAt": "2026-10-28T11:00:19.212Z",
+      "notes": "設定頁新增「AIAPI 帳號」區塊：登入狀態、平台餘額、定額、分組與常駐餘額條開關"
+    },
+    {
+      "version": "1.8.2",
+      "sha256": "89b257e352e5dbdcf4c327475b5b7eb95d6d7357674ed6a60f1a828d16bebed2",
+      "publishedAt": "2026-10-28T10:53:01.228Z",
+      "notes": "修好餘額條不出現（設定讀取用到未定義常數）與更新提示（請求 origin 解析）"
+    },
+    {
+      "version": "1.8.1",
+      "sha256": "7b48977db5a4520a2bfabcc7c782e99805a877847d48ec0160897e2d9890845c",
+      "publishedAt": "2026-10-28T05:25:10.947Z",
+      "notes": "更新提示改為共用狀態（插件頁查到也會彈）；重啟按鈕無法自動重啟時會明說"
+    },
+    {
+      "version": "1.8.0",
+      "sha256": "362f3d7f74628eee20a69a1896f984e43443d4938115965c2a25dfcee7db3a37",
+      "publishedAt": "2026-10-28T05:19:39.029Z",
+      "notes": "新增 AIAPI 餘額：卡片顯示帳號與平台餘額，可開啟側邊欄常駐餘額條（動態彩色）"
+    },
+    {
+      "version": "1.7.5",
+      "sha256": "d9a921d7ba22b52b41c27fb38e0388de49f88d86433f3a1aaa4daa39b9ddccd3",
+      "publishedAt": "2026-10-28T02:55:29.224Z",
+      "notes": "公開價格表為空（全專屬分組）時視為正常，改用帳號模型清單顯示"
+    },
+    {
+      "version": "1.7.4",
+      "sha256": "e51ee1b0d8b9fef268807ca2da189c2ecbf406d6363f9f6c79cca8eec54705f7",
+      "publishedAt": "2026-10-28T02:36:39.004Z",
+      "notes": "更新提示改為重新啟動 DSH；啟動檢查加入重試與回到視窗時重查"
+    },
+    {
+      "version": "1.7.3",
+      "sha256": "3ca59323d1aca7414a83b10ecee40cb2e74b1612177fa4a47ff62a1a5e7fe979",
+      "publishedAt": "2026-10-28T02:22:32.431Z",
+      "notes": "取得可用模型：價格表失效不再清空清單，改用帳號模型並顯示診斷計數"
+    },
+    {
+      "version": "1.7.2",
+      "sha256": "8a169760440fb5e414f638599c9230a3b2685d070833c258995e7741c3690981",
+      "publishedAt": "2026-10-27T15:04:31.376Z",
+      "notes": "登入改用裝置代碼為預設（不再依賴 aiapi-agent:// 回呼），桌面回呼保留為備援"
+    },
+    {
+      "version": "1.7.1",
+      "sha256": "d0efc190294214aabd72b86beacd6d2ce2954c816130199162acc937336905f0",
+      "publishedAt": "2026-10-27T14:55:49.855Z",
+      "notes": "更新流程：管理器安裝後驗證磁碟版本，失敗則直接覆寫已安裝檔案；補上 update/status 路由"
+    },
+    {
+      "version": "1.7.0",
+      "sha256": "f9d3e343a807fe557ac397a2dbfc775c60488c16741a2fe384dec240aebb6957",
+      "publishedAt": "2026-10-27T14:52:14.092Z",
+      "notes": "移除任務狀態與原話查找、原生拖放與對話交接（官方桌面端已有拖放，交接隨任務狀態一併移除）"
+    },
+    {
+      "version": "1.6.1",
+      "sha256": "fbeb2beaec6c64cee7ad03e6ee17569944b82b6a60dff839fb1039694ea28ea6",
+      "publishedAt": "2026-10-27T14:40:13.218Z",
+      "notes": "更新改為回報真實安裝結果：區分需重啟/可熱重載/失敗，並偵測磁碟版本與執行中版本差異"
+    },
+    {
+      "version": "1.6.0",
+      "sha256": "387fc0a37c55cceef05af1db178c5916c22d7c55a1a9339f7a24741a61edbea0",
+      "publishedAt": "2026-10-27T14:38:02.433Z",
+      "notes": "工程審查改成單一引導 skill 的包（不再注入提示、六份審查文件不登記）"
+    },
+    {
+      "version": "1.5.1",
+      "sha256": "ac8140cf9229484ef68e71dfca9e467d254c33e2b3740cb57400670e727d48db",
+      "publishedAt": "2026-10-27T14:30:50.815Z",
+      "notes": "更新卡片版本比較修正；落後時每次開啟 DSH 右下角提醒可更新"
+    },
+    {
+      "version": "1.5.0",
+      "sha256": "3ec0b2992caec246501c79769334833cbb6f6ebbfafadf4cedcd9cd5326ff2c4",
+      "publishedAt": "2026-10-27T14:27:15.085Z",
+      "notes": "固定啟用品牌與模型；通訊功能改名；刪除子代理模型（官方已有）；桌面模組去掉檔案位置與回合導覽（官方已有）；Skills 管理加搜尋/重整/防重複送出"
+    },
+    {
+      "version": "1.4.1",
+      "sha256": "070ee5829a6d4219830e67880a3277527eaa866e2e813795e1fd53d2d43671f1",
+      "publishedAt": "2026-10-27T14:21:50.197Z",
+      "notes": "更新來源改成程式內建預設（profile patch 覆寫 config 也不會失效）；要停用寫 updateManifestUrl: off"
     }
   ]
 }
