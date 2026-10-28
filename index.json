@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.7.2",
+    "version": "1.7.3",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.7.2.tgz",
+    "versioned": "aiapi-customizations-1.7.3.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "8a169760440fb5e414f638599c9230a3b2685d070833c258995e7741c3690981",
+    "sha256": "3ca59323d1aca7414a83b10ecee40cb2e74b1612177fa4a47ff62a1a5e7fe979",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-27T15:04:31.376Z",
-    "notes": "登入改用裝置代碼為預設（不再依賴 aiapi-agent:// 回呼），桌面回呼保留為備援",
+    "publishedAt": "2026-10-28T02:22:32.431Z",
+    "notes": "取得可用模型：價格表失效不再清空清單，改用帳號模型並顯示診斷計數",
     "zip": {
       "file": "latest.zip",
-      "bytes": 673574,
-      "sha256": "8a88bc5ce8fadf49903f999be1219930c0cd0d624e1dcb0a7e7e5a3d0e9fa299"
+      "bytes": 674938,
+      "sha256": "3658c0acb50564494ff83253842965046dbcd86cd72356419b3dd4201a9250d8"
     }
   },
   "history": [
     {
-      "version": "1.7.2",
-      "sha256": "8a169760440fb5e414f638599c9230a3b2685d070833c258995e7741c3690981",
-      "publishedAt": "2026-10-27T15:04:31.376Z",
-      "notes": "登入改用裝置代碼為預設（不再依賴 aiapi-agent:// 回呼），桌面回呼保留為備援"
+      "version": "1.7.3",
+      "sha256": "3ca59323d1aca7414a83b10ecee40cb2e74b1612177fa4a47ff62a1a5e7fe979",
+      "publishedAt": "2026-10-28T02:22:32.431Z",
+      "notes": "取得可用模型：價格表失效不再清空清單，改用帳號模型並顯示診斷計數"
     }
   ]
 }
