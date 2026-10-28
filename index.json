@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.7.4",
+    "version": "1.7.5",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.7.4.tgz",
+    "versioned": "aiapi-customizations-1.7.5.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "e51ee1b0d8b9fef268807ca2da189c2ecbf406d6363f9f6c79cca8eec54705f7",
+    "sha256": "d9a921d7ba22b52b41c27fb38e0388de49f88d86433f3a1aaa4daa39b9ddccd3",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T02:36:39.004Z",
-    "notes": "更新提示改為重新啟動 DSH；啟動檢查加入重試與回到視窗時重查",
+    "publishedAt": "2026-10-28T02:55:29.224Z",
+    "notes": "公開價格表為空（全專屬分組）時視為正常，改用帳號模型清單顯示",
     "zip": {
       "file": "latest.zip",
-      "bytes": 680061,
-      "sha256": "87849e2ed9f2dcfbdf0f4c4709c8b82b11fce3757677b7b0ab54dfa640605e0d"
+      "bytes": 681221,
+      "sha256": "acf9e65660ed2668b9042f49b1291a9d2fe9bb05e7bc6957e8d869cd209bd382"
     }
   },
   "history": [
     {
-      "version": "1.7.4",
-      "sha256": "e51ee1b0d8b9fef268807ca2da189c2ecbf406d6363f9f6c79cca8eec54705f7",
-      "publishedAt": "2026-10-28T02:36:39.004Z",
-      "notes": "更新提示改為重新啟動 DSH；啟動檢查加入重試與回到視窗時重查"
+      "version": "1.7.5",
+      "sha256": "d9a921d7ba22b52b41c27fb38e0388de49f88d86433f3a1aaa4daa39b9ddccd3",
+      "publishedAt": "2026-10-28T02:55:29.224Z",
+      "notes": "公開價格表為空（全專屬分組）時視為正常，改用帳號模型清單顯示"
     }
   ]
 }
