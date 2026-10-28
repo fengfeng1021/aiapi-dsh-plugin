@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.8.0.tgz",
+    "versioned": "aiapi-customizations-1.8.1.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "362f3d7f74628eee20a69a1896f984e43443d4938115965c2a25dfcee7db3a37",
+    "sha256": "7b48977db5a4520a2bfabcc7c782e99805a877847d48ec0160897e2d9890845c",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T05:19:39.029Z",
-    "notes": "新增 AIAPI 餘額：卡片顯示帳號與平台餘額，可開啟側邊欄常駐餘額條（動態彩色）",
+    "publishedAt": "2026-10-28T05:25:10.947Z",
+    "notes": "更新提示改為共用狀態（插件頁查到也會彈）；重啟按鈕無法自動重啟時會明說",
     "zip": {
       "file": "latest.zip",
-      "bytes": 698829,
-      "sha256": "0b1bccd10d23934e212d6e93a5a12f4e41874d01526cee09778a628a954d11a9"
+      "bytes": 700150,
+      "sha256": "cba0b9d9773a0ca2fdb5206bd7858f0828810a56e5fee715a769af17e0468bf8"
     }
   },
   "history": [
     {
-      "version": "1.8.0",
-      "sha256": "362f3d7f74628eee20a69a1896f984e43443d4938115965c2a25dfcee7db3a37",
-      "publishedAt": "2026-10-28T05:19:39.029Z",
-      "notes": "新增 AIAPI 餘額：卡片顯示帳號與平台餘額，可開啟側邊欄常駐餘額條（動態彩色）"
+      "version": "1.8.1",
+      "sha256": "7b48977db5a4520a2bfabcc7c782e99805a877847d48ec0160897e2d9890845c",
+      "publishedAt": "2026-10-28T05:25:10.947Z",
+      "notes": "更新提示改為共用狀態（插件頁查到也會彈）；重啟按鈕無法自動重啟時會明說"
     }
   ]
 }
