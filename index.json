@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.8.4",
+    "version": "1.8.5",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.8.4.tgz",
+    "versioned": "aiapi-customizations-1.8.5.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "86e2e05c8cbaa600cf505ce019b75fadcf8d88071500e9494a406486c66372f5",
+    "sha256": "6276c713d5954f657f3582eb73ede2ef0450fe8ab540d52c13fa56ade87653e9",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T11:05:53.085Z",
-    "notes": "介面顯示實際執行版本，方便確認更新到底有沒有裝進去",
+    "publishedAt": "2026-10-28T11:40:22.118Z",
+    "notes": "卡片各自錯誤邊界＋全域錯誤紀錄＋版本顯示，讓「介面空白」能自我說明",
     "zip": {
       "file": "latest.zip",
-      "bytes": 712383,
-      "sha256": "b2d6ff326ab067fa0f2b85be5f04a3afe8a76ae9ce22cbe99512d2fa00509d2a"
+      "bytes": 716093,
+      "sha256": "9bc548387c4f2270bf18b8a3d4d5ed438a71c0c1b20e90f5ea227177ef6652d9"
     }
   },
   "history": [
     {
-      "version": "1.8.4",
-      "sha256": "86e2e05c8cbaa600cf505ce019b75fadcf8d88071500e9494a406486c66372f5",
-      "publishedAt": "2026-10-28T11:05:53.085Z",
-      "notes": "介面顯示實際執行版本，方便確認更新到底有沒有裝進去"
+      "version": "1.8.5",
+      "sha256": "6276c713d5954f657f3582eb73ede2ef0450fe8ab540d52c13fa56ade87653e9",
+      "publishedAt": "2026-10-28T11:40:22.118Z",
+      "notes": "卡片各自錯誤邊界＋全域錯誤紀錄＋版本顯示，讓「介面空白」能自我說明"
     }
   ]
 }
