@@ -24,6 +24,15 @@ pre{background:rgba(127,127,127,.12);padding:12px 14px;border-radius:8px;overflo
 <tr><th>索引</th><td><a href="index.json">index.json</a></td></tr>
 <tr><th>發佈時間</th><td class="muted">2026-10-28T12:30:50.456Z</td></tr>
 </table>
+<h2>一鍵安裝（不必下載、不必解壓）</h2>
+<p class="muted">DSH 的插件安裝器本身就接受 <code>.tgz</code> 直連 —— 只要貼一行網址：</p>
+<pre id="spec">https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz</pre>
+<p class="muted">做法：DSH → 設定 → 插件 → 安裝 → 把上面那行貼進輸入框 → 確認。安裝器會自己下載、解開並掛進 profile，之後可在同一頁按「更新」。</p>
+<table>
+<tr><th>用 pnpm（終端機）</th><td><code>pnpm add https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz</code></td></tr>
+<tr><th>指定版本</th><td><code>https://fengfeng1021.github.io/aiapi-dsh-plugin/aiapi-customizations-1.8.7.tgz</code></td></tr>
+</table>
+<p class="muted">ZIP 只是給「手動放進 profile」的人用的備援，日常安裝用上面那行就好。</p>
 <h2>ZIP 裡有什麼</h2>
 <p class="muted">解壓後是一層 <code>aiapi-customizations/</code>（含 <code>package.json</code>、已附 <code>node_modules</code>、<code>INSTALL.md</code>、<code>update-plugin.sh</code>、<code>spec.sh</code>）。把整層放進 DSH 的 profile，或貼它的路徑到 Plugins → 安装。</p>
 <h2>在 DSH 裡設定自動更新</h2>
