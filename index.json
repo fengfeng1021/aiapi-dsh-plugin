@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.8.3",
+    "version": "1.8.4",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.8.3.tgz",
+    "versioned": "aiapi-customizations-1.8.4.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "704503d05bc56d2d0dbb1e18a7e93227958a7a5b51c1e1823a55b0471f1bf8bc",
+    "sha256": "86e2e05c8cbaa600cf505ce019b75fadcf8d88071500e9494a406486c66372f5",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T11:00:19.212Z",
-    "notes": "設定頁新增「AIAPI 帳號」區塊：登入狀態、平台餘額、定額、分組與常駐餘額條開關",
+    "publishedAt": "2026-10-28T11:05:53.085Z",
+    "notes": "介面顯示實際執行版本，方便確認更新到底有沒有裝進去",
     "zip": {
       "file": "latest.zip",
-      "bytes": 711617,
-      "sha256": "a54a14a28118764d12186e323f9924b355cd0d3442891fb1ab9bad80fd1bf5b0"
+      "bytes": 712383,
+      "sha256": "b2d6ff326ab067fa0f2b85be5f04a3afe8a76ae9ce22cbe99512d2fa00509d2a"
     }
   },
   "history": [
     {
-      "version": "1.8.3",
-      "sha256": "704503d05bc56d2d0dbb1e18a7e93227958a7a5b51c1e1823a55b0471f1bf8bc",
-      "publishedAt": "2026-10-28T11:00:19.212Z",
-      "notes": "設定頁新增「AIAPI 帳號」區塊：登入狀態、平台餘額、定額、分組與常駐餘額條開關"
+      "version": "1.8.4",
+      "sha256": "86e2e05c8cbaa600cf505ce019b75fadcf8d88071500e9494a406486c66372f5",
+      "publishedAt": "2026-10-28T11:05:53.085Z",
+      "notes": "介面顯示實際執行版本，方便確認更新到底有沒有裝進去"
     }
   ]
 }
