@@ -2,28 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.7.5",
+    "version": "1.8.0",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.7.5.tgz",
+    "versioned": "aiapi-customizations-1.8.0.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "d9a921d7ba22b52b41c27fb38e0388de49f88d86433f3a1aaa4daa39b9ddccd3",
+    "sha256": "362f3d7f74628eee20a69a1896f984e43443d4938115965c2a25dfcee7db3a37",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T02:55:29.224Z",
-    "notes": "公開價格表為空（全專屬分組）時視為正常，改用帳號模型清單顯示",
+    "publishedAt": "2026-10-28T05:19:39.029Z",
+    "notes": "新增 AIAPI 餘額：卡片顯示帳號與平台餘額，可開啟側邊欄常駐餘額條（動態彩色）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 681221,
-      "sha256": "acf9e65660ed2668b9042f49b1291a9d2fe9bb05e7bc6957e8d869cd209bd382"
+      "bytes": 698829,
+      "sha256": "0b1bccd10d23934e212d6e93a5a12f4e41874d01526cee09778a628a954d11a9"
     }
   },
   "history": [
     {
-      "version": "1.7.5",
-      "sha256": "d9a921d7ba22b52b41c27fb38e0388de49f88d86433f3a1aaa4daa39b9ddccd3",
-      "publishedAt": "2026-10-28T02:55:29.224Z",
-      "notes": "公開價格表為空（全專屬分組）時視為正常，改用帳號模型清單顯示"
+      "version": "1.8.0",
+      "sha256": "362f3d7f74628eee20a69a1896f984e43443d4938115965c2a25dfcee7db3a37",
+      "publishedAt": "2026-10-28T05:19:39.029Z",
+      "notes": "新增 AIAPI 餘額：卡片顯示帳號與平台餘額，可開啟側邊欄常駐餘額條（動態彩色）"
     }
   ]
 }
