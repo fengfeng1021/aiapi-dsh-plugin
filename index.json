@@ -2,18 +2,29 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.5",
+    "version": "1.9.6",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.5.tgz",
+    "versioned": "aiapi-customizations-1.9.6.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "6fe3badb3ae269cc67ff85ad474abd7a86fd65818f57f98a53f817536759a75b",
+    "sha256": "b7c0be2cfd28c167fb339df67a938ab6a2d0d1ba9d62d8ac28c63fb2f5ca5893",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T16:10:45.222Z",
-    "notes": "手動複製資料夾安裝時（沒有 node_modules）也能啟用：schema 依賴缺失自動降級；建議改用 tgz 直連安裝"
+    "publishedAt": "2026-10-28T17:10:03.017Z",
+    "notes": "修好：餘額讀取失敗（400）、模型頁看不到 AIAPI、思考等級 max 被擋、手動資料夾安裝無法啟用、帳號卡無限請求、更新提示會要求降版；新增「設定 → AIAPI 帳號」頁（可直接登入）",
+    "zip": {
+      "file": "latest.zip",
+      "bytes": 389489,
+      "sha256": "7915228e83525f03e79ebf7d9bb0cb8e92fab4133555a50bbcc961c8f613f994"
+    }
   },
   "history": [
+    {
+      "version": "1.9.6",
+      "sha256": "b7c0be2cfd28c167fb339df67a938ab6a2d0d1ba9d62d8ac28c63fb2f5ca5893",
+      "publishedAt": "2026-10-28T17:10:03.017Z",
+      "notes": "修好：餘額讀取失敗（400）、模型頁看不到 AIAPI、思考等級 max 被擋、手動資料夾安裝無法啟用、帳號卡無限請求、更新提示會要求降版；新增「設定 → AIAPI 帳號」頁（可直接登入）"
+    },
     {
       "version": "1.9.5",
       "sha256": "6fe3badb3ae269cc67ff85ad474abd7a86fd65818f57f98a53f817536759a75b",
@@ -127,12 +138,6 @@
       "sha256": "3ca59323d1aca7414a83b10ecee40cb2e74b1612177fa4a47ff62a1a5e7fe979",
       "publishedAt": "2026-10-28T02:22:32.431Z",
       "notes": "取得可用模型：價格表失效不再清空清單，改用帳號模型並顯示診斷計數"
-    },
-    {
-      "version": "1.7.2",
-      "sha256": "8a169760440fb5e414f638599c9230a3b2685d070833c258995e7741c3690981",
-      "publishedAt": "2026-10-27T15:04:31.376Z",
-      "notes": "登入改用裝置代碼為預設（不再依賴 aiapi-agent:// 回呼），桌面回呼保留為備援"
     }
   ]
 }
