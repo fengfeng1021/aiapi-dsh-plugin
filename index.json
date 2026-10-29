@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.15",
+    "version": "1.9.16",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.15.tgz",
-    "sha256": "30c131be75f0f23163530964b605e4d5c2bab2943ae73998ef852403f776f549",
+    "versioned": "aiapi-customizations-1.9.16.tgz",
+    "sha256": "102665ca275308c1456ff3f6735cb40da2850b252a509f156049a974842d81cd",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-29T08:38:56.380Z",
-    "notes": "插件頁新增「配色」預覽：標題、粗體、斜體、行內程式碼、引用、清單、程式碼區塊一次顯示，跟回覆共用同一組規則；1.9.14 的 opencode 色票不變",
+    "publishedAt": "2026-10-29T08:46:30.721Z",
+    "notes": "回覆裡的 hex 色碼（#9d7cd8 這種）直接用該顏色顯示；程式碼區塊內的不動，仍交給語法高亮",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5642524,
-      "sha256": "141e7d38c7cc1f35747905df6fe9b0ec7b650ccb1f5613ba49735539eab61fbf"
+      "bytes": 5645886,
+      "sha256": "818aae2844bbfdc01467e068c587e2b719e05218ee9e2873fa4746a4a0fff919"
     }
   },
   "history": [
+    {
+      "version": "1.9.16",
+      "sha256": "102665ca275308c1456ff3f6735cb40da2850b252a509f156049a974842d81cd",
+      "publishedAt": "2026-10-29T08:46:30.721Z",
+      "notes": "回覆裡的 hex 色碼（#9d7cd8 這種）直接用該顏色顯示；程式碼區塊內的不動，仍交給語法高亮"
+    },
     {
       "version": "1.9.15",
       "sha256": "30c131be75f0f23163530964b605e4d5c2bab2943ae73998ef852403f776f549",
@@ -131,12 +137,6 @@
       "sha256": "8c92d47d1bbf1cb4a78c9a12275a1c563f9bafbdfd70f0234ab6980bc9184919",
       "publishedAt": "2026-10-28T12:30:50.456Z",
       "notes": "使用者端錯誤自動回傳（可在設定頁關閉），落地到平台錯誤日誌"
-    },
-    {
-      "version": "1.8.6",
-      "sha256": "c1f8b3008e86709244ee1e9d980d3257ef706ea3b490ec0443974b7d139512b1",
-      "publishedAt": "2026-10-28T12:21:06.624Z",
-      "notes": "修好餘額條與餘額卡（balanceFlag 未定義），並加上 client bundle 冒煙測試"
     }
   ]
 }
