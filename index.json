@@ -2,23 +2,29 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.7",
+    "version": "1.9.8",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.7.tgz",
+    "versioned": "aiapi-customizations-1.9.8.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "728d435f7839cc20816604a6134a9e8da0ca4d180635386864bbad77ddef5178",
+    "sha256": "2aea8f5b9b3d175503e2bbe81fdedba86dff5af464b4f74d982ad8e2ce2e05b0",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-29T01:42:41.173Z",
-    "notes": "修好「setTypeOfService EINVAL」錯誤與餘額一直讀取失敗；AIAPI 帳號與餘額併入「账号与余额」；介面全面改用 DSH 原生元件重新設計；字型改為挑選本機已安裝的字型",
+    "publishedAt": "2026-10-29T04:06:08.487Z",
+    "notes": "模型能力（上下文、輸出上限、圖片、思考等級）自動跟隨平台同步，Gemini 等名稱已含思考等級的模型不再顯示等級；模型清單可自動跟隨帳號；字型內建在插件裡；餘額顯示到小數點後三位；設定裡不再出現兩個帳號頁；全新鎏金霓虹動態介面與舊版好用的模型挑選視窗",
     "zip": {
       "file": "latest.zip",
-      "bytes": 319499,
-      "sha256": "e13f36635b270fd4367ea3e86a06e770b3d357dee8ca44b8583f6d973beaaa39"
+      "bytes": 5633175,
+      "sha256": "6d254f472d5770cba9796df0af5cd0c99f3da481bcf765c0fa1bda5df2f02d7d"
     }
   },
   "history": [
+    {
+      "version": "1.9.8",
+      "sha256": "2aea8f5b9b3d175503e2bbe81fdedba86dff5af464b4f74d982ad8e2ce2e05b0",
+      "publishedAt": "2026-10-29T04:06:08.487Z",
+      "notes": "模型能力（上下文、輸出上限、圖片、思考等級）自動跟隨平台同步，Gemini 等名稱已含思考等級的模型不再顯示等級；模型清單可自動跟隨帳號；字型內建在插件裡；餘額顯示到小數點後三位；設定裡不再出現兩個帳號頁；全新鎏金霓虹動態介面與舊版好用的模型挑選視窗"
+    },
     {
       "version": "1.9.7",
       "sha256": "728d435f7839cc20816604a6134a9e8da0ca4d180635386864bbad77ddef5178",
@@ -132,12 +138,6 @@
       "sha256": "d9a921d7ba22b52b41c27fb38e0388de49f88d86433f3a1aaa4daa39b9ddccd3",
       "publishedAt": "2026-10-28T02:55:29.224Z",
       "notes": "公開價格表為空（全專屬分組）時視為正常，改用帳號模型清單顯示"
-    },
-    {
-      "version": "1.7.4",
-      "sha256": "e51ee1b0d8b9fef268807ca2da189c2ecbf406d6363f9f6c79cca8eec54705f7",
-      "publishedAt": "2026-10-28T02:36:39.004Z",
-      "notes": "更新提示改為重新啟動 DSH；啟動檢查加入重試與回到視窗時重查"
     }
   ]
 }
