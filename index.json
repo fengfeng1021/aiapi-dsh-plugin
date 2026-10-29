@@ -2,23 +2,29 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.6",
+    "version": "1.9.7",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.6.tgz",
+    "versioned": "aiapi-customizations-1.9.7.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "b7c0be2cfd28c167fb339df67a938ab6a2d0d1ba9d62d8ac28c63fb2f5ca5893",
+    "sha256": "728d435f7839cc20816604a6134a9e8da0ca4d180635386864bbad77ddef5178",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-28T17:10:03.017Z",
-    "notes": "修好：餘額讀取失敗（400）、模型頁看不到 AIAPI、思考等級 max 被擋、手動資料夾安裝無法啟用、帳號卡無限請求、更新提示會要求降版；新增「設定 → AIAPI 帳號」頁（可直接登入）",
+    "publishedAt": "2026-10-29T01:42:41.173Z",
+    "notes": "修好「setTypeOfService EINVAL」錯誤與餘額一直讀取失敗；AIAPI 帳號與餘額併入「账号与余额」；介面全面改用 DSH 原生元件重新設計；字型改為挑選本機已安裝的字型",
     "zip": {
       "file": "latest.zip",
-      "bytes": 389489,
-      "sha256": "7915228e83525f03e79ebf7d9bb0cb8e92fab4133555a50bbcc961c8f613f994"
+      "bytes": 319499,
+      "sha256": "e13f36635b270fd4367ea3e86a06e770b3d357dee8ca44b8583f6d973beaaa39"
     }
   },
   "history": [
+    {
+      "version": "1.9.7",
+      "sha256": "728d435f7839cc20816604a6134a9e8da0ca4d180635386864bbad77ddef5178",
+      "publishedAt": "2026-10-29T01:42:41.173Z",
+      "notes": "修好「setTypeOfService EINVAL」錯誤與餘額一直讀取失敗；AIAPI 帳號與餘額併入「账号与余额」；介面全面改用 DSH 原生元件重新設計；字型改為挑選本機已安裝的字型"
+    },
     {
       "version": "1.9.6",
       "sha256": "b7c0be2cfd28c167fb339df67a938ab6a2d0d1ba9d62d8ac28c63fb2f5ca5893",
@@ -132,12 +138,6 @@
       "sha256": "e51ee1b0d8b9fef268807ca2da189c2ecbf406d6363f9f6c79cca8eec54705f7",
       "publishedAt": "2026-10-28T02:36:39.004Z",
       "notes": "更新提示改為重新啟動 DSH；啟動檢查加入重試與回到視窗時重查"
-    },
-    {
-      "version": "1.7.3",
-      "sha256": "3ca59323d1aca7414a83b10ecee40cb2e74b1612177fa4a47ff62a1a5e7fe979",
-      "publishedAt": "2026-10-28T02:22:32.431Z",
-      "notes": "取得可用模型：價格表失效不再清空清單，改用帳號模型並顯示診斷計數"
     }
   ]
 }
