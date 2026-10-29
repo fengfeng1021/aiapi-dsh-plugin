@@ -2,23 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.8",
+    "version": "1.9.9",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.8.tgz",
-    "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "2aea8f5b9b3d175503e2bbe81fdedba86dff5af464b4f74d982ad8e2ce2e05b0",
+    "versioned": "aiapi-customizations-1.9.9.tgz",
+    "sha256": "8cffb8ea70a7c35941fec7969f7e150ea04c7fec76fbd385a6857ab992db9af8",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-29T04:06:08.487Z",
-    "notes": "模型能力（上下文、輸出上限、圖片、思考等級）自動跟隨平台同步，Gemini 等名稱已含思考等級的模型不再顯示等級；模型清單可自動跟隨帳號；字型內建在插件裡；餘額顯示到小數點後三位；設定裡不再出現兩個帳號頁；全新鎏金霓虹動態介面與舊版好用的模型挑選視窗",
+    "publishedAt": "2026-10-29T07:34:51.585Z",
+    "notes": "手動資料夾載入不再依賴 DSH 內建的 schema 套件（載入失敗時改用內建副本），資料夾不完整會直接說要重裝；1.9.8 其餘功能不變",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5633175,
-      "sha256": "6d254f472d5770cba9796df0af5cd0c99f3da481bcf765c0fa1bda5df2f02d7d"
+      "bytes": 5633730,
+      "sha256": "303af3e694c342b6835be523ded2b330f65af7579b351d65290687715a69e3ed"
     }
   },
   "history": [
+    {
+      "version": "1.9.9",
+      "sha256": "8cffb8ea70a7c35941fec7969f7e150ea04c7fec76fbd385a6857ab992db9af8",
+      "publishedAt": "2026-10-29T07:34:51.585Z",
+      "notes": "手動資料夾載入不再依賴 DSH 內建的 schema 套件（載入失敗時改用內建副本），資料夾不完整會直接說要重裝；1.9.8 其餘功能不變"
+    },
     {
       "version": "1.9.8",
       "sha256": "2aea8f5b9b3d175503e2bbe81fdedba86dff5af464b4f74d982ad8e2ce2e05b0",
@@ -132,12 +137,6 @@
       "sha256": "362f3d7f74628eee20a69a1896f984e43443d4938115965c2a25dfcee7db3a37",
       "publishedAt": "2026-10-28T05:19:39.029Z",
       "notes": "新增 AIAPI 餘額：卡片顯示帳號與平台餘額，可開啟側邊欄常駐餘額條（動態彩色）"
-    },
-    {
-      "version": "1.7.5",
-      "sha256": "d9a921d7ba22b52b41c27fb38e0388de49f88d86433f3a1aaa4daa39b9ddccd3",
-      "publishedAt": "2026-10-28T02:55:29.224Z",
-      "notes": "公開價格表為空（全專屬分組）時視為正常，改用帳號模型清單顯示"
     }
   ]
 }
