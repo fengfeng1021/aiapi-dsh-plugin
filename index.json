@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.17",
+    "version": "1.9.18",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.17.tgz",
-    "sha256": "bc67cb021cf86a201f77d0cde1c0d8334076b8e81619f0e26c822925ff553b54",
+    "versioned": "aiapi-customizations-1.9.18.tgz",
+    "sha256": "497fbafe4f1ba2366153803a2e117155ae6a39f2cb0d222935a02605b804c0e2",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-29T08:54:34.405Z",
-    "notes": "「白話回覆」原本把白話寫成「少用標題、少用清單」，結果變成大段文字堆砌。現在拆成兩個互不干擾的要求：用詞白話、但該用標題分段／清單表格呈現並列資訊／程式碼進區塊",
+    "publishedAt": "2026-10-29T09:02:54.037Z",
+    "notes": "字型設定加了即時預覽（三種角色用實際字型與字級呈現）與「比較字型」清單（每個候選字型用同一句範例排出來，點一下就套用）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5646255,
-      "sha256": "0fde3afd57cf0d2120604302fe43c247940fb505921405497f8b0b7117b973fe"
+      "bytes": 5649985,
+      "sha256": "b20a8cb2768c162b61fb4f8a0ddc8a7107bca01e73007f2d754d888e239cb92d"
     }
   },
   "history": [
+    {
+      "version": "1.9.18",
+      "sha256": "497fbafe4f1ba2366153803a2e117155ae6a39f2cb0d222935a02605b804c0e2",
+      "publishedAt": "2026-10-29T09:02:54.037Z",
+      "notes": "字型設定加了即時預覽（三種角色用實際字型與字級呈現）與「比較字型」清單（每個候選字型用同一句範例排出來，點一下就套用）"
+    },
     {
       "version": "1.9.17",
       "sha256": "bc67cb021cf86a201f77d0cde1c0d8334076b8e81619f0e26c822925ff553b54",
@@ -131,12 +137,6 @@
       "sha256": "6041ad00d6b34ff933757d6242752902f129ff0098883e07ef9504a85b303f80",
       "publishedAt": "2026-10-28T15:38:54.665Z",
       "notes": "更新後自動重載介面（不必重啟 DSH）；只有 host 端變更才提示重啟"
-    },
-    {
-      "version": "1.8.8",
-      "sha256": "52a9e152f0daf60e625c1a1b92a7b0310bb053a85ed573e6c322e50b16340a34",
-      "publishedAt": "2026-10-28T15:31:59.644Z",
-      "notes": "修好設定頁「reporting is not defined」；外掛自帶 logo；新增元件渲染測試"
     }
   ]
 }
