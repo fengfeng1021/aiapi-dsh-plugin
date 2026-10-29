@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.12",
+    "version": "1.9.13",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.12.tgz",
-    "sha256": "32bd2437a454a972f0bdb7438ca4598792bc374223115ece5a6bae4ca45747a5",
+    "versioned": "aiapi-customizations-1.9.13.tgz",
+    "sha256": "36f472faf9b2d363af62172febaac6ebac8c7e488b22a90c43082ac4b5426643",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-29T08:20:41.069Z",
-    "notes": "回覆內容照 opencode 的做法分色：標題用品牌色、行內程式碼綠、連結橙、引用左線與清單標記品牌色（DSH 本身沒有這些 token，之前整段都是同一個文字色）",
+    "publishedAt": "2026-10-29T08:29:48.957Z",
+    "notes": "配色對齊 opencode 實際的 markdown 與語法 token：程式碼區塊改用 opencode 的語法色（keyword 紫、string 綠、function 橙），行內程式碼改成淡底，引用與清單標記降為次要色",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5637260,
-      "sha256": "dd8c497c52d9e44fc763356875d710bfe697200609144c7a31c426826a81ca0f"
+      "bytes": 5638735,
+      "sha256": "1c5d75cf8844c8e0699c93d630916c31e1b8d7e2d53ff4d3d6ab702bb3d26393"
     }
   },
   "history": [
+    {
+      "version": "1.9.13",
+      "sha256": "36f472faf9b2d363af62172febaac6ebac8c7e488b22a90c43082ac4b5426643",
+      "publishedAt": "2026-10-29T08:29:48.957Z",
+      "notes": "配色對齊 opencode 實際的 markdown 與語法 token：程式碼區塊改用 opencode 的語法色（keyword 紫、string 綠、function 橙），行內程式碼改成淡底，引用與清單標記降為次要色"
+    },
     {
       "version": "1.9.12",
       "sha256": "32bd2437a454a972f0bdb7438ca4598792bc374223115ece5a6bae4ca45747a5",
@@ -131,12 +137,6 @@
       "sha256": "86e2e05c8cbaa600cf505ce019b75fadcf8d88071500e9494a406486c66372f5",
       "publishedAt": "2026-10-28T11:05:53.085Z",
       "notes": "介面顯示實際執行版本，方便確認更新到底有沒有裝進去"
-    },
-    {
-      "version": "1.8.3",
-      "sha256": "704503d05bc56d2d0dbb1e18a7e93227958a7a5b51c1e1823a55b0471f1bf8bc",
-      "publishedAt": "2026-10-28T11:00:19.212Z",
-      "notes": "設定頁新增「AIAPI 帳號」區塊：登入狀態、平台餘額、定額、分組與常駐餘額條開關"
     }
   ]
 }
