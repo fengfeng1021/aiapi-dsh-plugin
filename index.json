@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.16",
+    "version": "1.9.17",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.16.tgz",
-    "sha256": "102665ca275308c1456ff3f6735cb40da2850b252a509f156049a974842d81cd",
+    "versioned": "aiapi-customizations-1.9.17.tgz",
+    "sha256": "bc67cb021cf86a201f77d0cde1c0d8334076b8e81619f0e26c822925ff553b54",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-29T08:46:30.721Z",
-    "notes": "回覆裡的 hex 色碼（#9d7cd8 這種）直接用該顏色顯示；程式碼區塊內的不動，仍交給語法高亮",
+    "publishedAt": "2026-10-29T08:54:34.405Z",
+    "notes": "「白話回覆」原本把白話寫成「少用標題、少用清單」，結果變成大段文字堆砌。現在拆成兩個互不干擾的要求：用詞白話、但該用標題分段／清單表格呈現並列資訊／程式碼進區塊",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5645886,
-      "sha256": "818aae2844bbfdc01467e068c587e2b719e05218ee9e2873fa4746a4a0fff919"
+      "bytes": 5646255,
+      "sha256": "0fde3afd57cf0d2120604302fe43c247940fb505921405497f8b0b7117b973fe"
     }
   },
   "history": [
+    {
+      "version": "1.9.17",
+      "sha256": "bc67cb021cf86a201f77d0cde1c0d8334076b8e81619f0e26c822925ff553b54",
+      "publishedAt": "2026-10-29T08:54:34.405Z",
+      "notes": "「白話回覆」原本把白話寫成「少用標題、少用清單」，結果變成大段文字堆砌。現在拆成兩個互不干擾的要求：用詞白話、但該用標題分段／清單表格呈現並列資訊／程式碼進區塊"
+    },
     {
       "version": "1.9.16",
       "sha256": "102665ca275308c1456ff3f6735cb40da2850b252a509f156049a974842d81cd",
@@ -131,12 +137,6 @@
       "sha256": "52a9e152f0daf60e625c1a1b92a7b0310bb053a85ed573e6c322e50b16340a34",
       "publishedAt": "2026-10-28T15:31:59.644Z",
       "notes": "修好設定頁「reporting is not defined」；外掛自帶 logo；新增元件渲染測試"
-    },
-    {
-      "version": "1.8.7",
-      "sha256": "8c92d47d1bbf1cb4a78c9a12275a1c563f9bafbdfd70f0234ab6980bc9184919",
-      "publishedAt": "2026-10-28T12:30:50.456Z",
-      "notes": "使用者端錯誤自動回傳（可在設定頁關閉），落地到平台錯誤日誌"
     }
   ]
 }
