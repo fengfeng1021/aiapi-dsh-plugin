@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.11",
+    "version": "1.9.12",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.11.tgz",
-    "sha256": "53ed55dc1790e8e60b89d9a67018afeb4f95385ed9117af48142af1c860dc97f",
+    "versioned": "aiapi-customizations-1.9.12.tgz",
+    "sha256": "32bd2437a454a972f0bdb7438ca4598792bc374223115ece5a6bae4ca45747a5",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-29T07:58:16.414Z",
-    "notes": "更新提示固定在右下角：position:fixed 原本被同一個元素上的卡片樣式（position:relative）蓋掉，提示會掉到畫面左下角被裁掉；1.9.10 的偏好開關不變",
+    "publishedAt": "2026-10-29T08:20:41.069Z",
+    "notes": "回覆內容照 opencode 的做法分色：標題用品牌色、行內程式碼綠、連結橙、引用左線與清單標記品牌色（DSH 本身沒有這些 token，之前整段都是同一個文字色）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5635559,
-      "sha256": "8e51f751bafc1fa09350e6c27c265d93a59a8eed848e17d3e086a7fd43bfbe46"
+      "bytes": 5637260,
+      "sha256": "dd8c497c52d9e44fc763356875d710bfe697200609144c7a31c426826a81ca0f"
     }
   },
   "history": [
+    {
+      "version": "1.9.12",
+      "sha256": "32bd2437a454a972f0bdb7438ca4598792bc374223115ece5a6bae4ca45747a5",
+      "publishedAt": "2026-10-29T08:20:41.069Z",
+      "notes": "回覆內容照 opencode 的做法分色：標題用品牌色、行內程式碼綠、連結橙、引用左線與清單標記品牌色（DSH 本身沒有這些 token，之前整段都是同一個文字色）"
+    },
     {
       "version": "1.9.11",
       "sha256": "53ed55dc1790e8e60b89d9a67018afeb4f95385ed9117af48142af1c860dc97f",
@@ -131,12 +137,6 @@
       "sha256": "704503d05bc56d2d0dbb1e18a7e93227958a7a5b51c1e1823a55b0471f1bf8bc",
       "publishedAt": "2026-10-28T11:00:19.212Z",
       "notes": "設定頁新增「AIAPI 帳號」區塊：登入狀態、平台餘額、定額、分組與常駐餘額條開關"
-    },
-    {
-      "version": "1.8.2",
-      "sha256": "89b257e352e5dbdcf4c327475b5b7eb95d6d7357674ed6a60f1a828d16bebed2",
-      "publishedAt": "2026-10-28T10:53:01.228Z",
-      "notes": "修好餘額條不出現（設定讀取用到未定義常數）與更新提示（請求 origin 解析）"
     }
   ]
 }
