@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.21",
+    "version": "1.9.22",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.21.tgz",
-    "sha256": "34bc1f83b7acd559d9c25ef98f48ed48eaf531b2406c25b87aec1527533f1a08",
+    "versioned": "aiapi-customizations-1.9.22.tgz",
+    "sha256": "c51c9440410b0cd0d10ac743d99602c24ab3cac7a94f7abe263a23cf0ee753b8",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-30T15:46:34.789Z",
-    "notes": "推薦插件改成真正的一鍵安裝：按「安裝」直接走 DSH 自己的安裝流程（與官方插件頁同一條路），裝完自動啟用，失敗會顯示原因並可重試",
+    "publishedAt": "2026-10-30T16:04:40.437Z",
+    "notes": "修正一鍵安裝的錯誤：介面要先宣告會用到 DSH 的安裝服務，否則讀取時直接報 cannot get property 錯誤；現在已宣告",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5656421,
-      "sha256": "a541f6aa9ea1517c6e5ee972ebf0266a99d565771a9ec9b627da4c8c7763ca38"
+      "bytes": 5656530,
+      "sha256": "2ae82d35d8935b8ea4a803c96f03dcc4e5cc5e350a305c93c628aaee833a0fa8"
     }
   },
   "history": [
+    {
+      "version": "1.9.22",
+      "sha256": "c51c9440410b0cd0d10ac743d99602c24ab3cac7a94f7abe263a23cf0ee753b8",
+      "publishedAt": "2026-10-30T16:04:40.437Z",
+      "notes": "修正一鍵安裝的錯誤：介面要先宣告會用到 DSH 的安裝服務，否則讀取時直接報 cannot get property 錯誤；現在已宣告"
+    },
     {
       "version": "1.9.21",
       "sha256": "34bc1f83b7acd559d9c25ef98f48ed48eaf531b2406c25b87aec1527533f1a08",
@@ -131,12 +137,6 @@
       "sha256": "6e58bf0ad713b20c200de42ed86bb2f62651d6f5086bdb79ede1fc0a0014d6a1",
       "publishedAt": "2026-10-28T16:01:52.929Z",
       "notes": "思考等級回到 low/high/max（不加 medium、不加 off），供應商設定與模型清單一致"
-    },
-    {
-      "version": "1.9.2",
-      "sha256": "86f627861570a917ecd9a9f8857933839f8420d285c75182c97a9e72f78adaed",
-      "publishedAt": "2026-10-28T16:00:21.522Z",
-      "notes": "模型清單補上思考等級預設（修 reasoning effort max 被本地擋下）；供應商設定同步"
     }
   ]
 }
