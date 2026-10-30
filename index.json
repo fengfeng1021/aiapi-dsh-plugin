@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.20",
+    "version": "1.9.21",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.20.tgz",
-    "sha256": "8d1e397813739dfc915c0395c3450998022c7bc34c9350f3a6b842ce1b811156",
+    "versioned": "aiapi-customizations-1.9.21.tgz",
+    "sha256": "34bc1f83b7acd559d9c25ef98f48ed48eaf531b2406c25b87aec1527533f1a08",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-30T15:35:19.836Z",
-    "notes": "插件頁新增「推薦插件」清單：上下文儀表板、對話軌跡牆、右側檔案欄、手機遠端、任務看板、效能觀測，每列附可複製的安裝規格",
+    "publishedAt": "2026-10-30T15:46:34.789Z",
+    "notes": "推薦插件改成真正的一鍵安裝：按「安裝」直接走 DSH 自己的安裝流程（與官方插件頁同一條路），裝完自動啟用，失敗會顯示原因並可重試",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5654465,
-      "sha256": "5c16770098580a42e7de253c4c8e3ee13e9bb64d1f054b9156daef873be403d8"
+      "bytes": 5656421,
+      "sha256": "a541f6aa9ea1517c6e5ee972ebf0266a99d565771a9ec9b627da4c8c7763ca38"
     }
   },
   "history": [
+    {
+      "version": "1.9.21",
+      "sha256": "34bc1f83b7acd559d9c25ef98f48ed48eaf531b2406c25b87aec1527533f1a08",
+      "publishedAt": "2026-10-30T15:46:34.789Z",
+      "notes": "推薦插件改成真正的一鍵安裝：按「安裝」直接走 DSH 自己的安裝流程（與官方插件頁同一條路），裝完自動啟用，失敗會顯示原因並可重試"
+    },
     {
       "version": "1.9.20",
       "sha256": "8d1e397813739dfc915c0395c3450998022c7bc34c9350f3a6b842ce1b811156",
@@ -131,12 +137,6 @@
       "sha256": "86f627861570a917ecd9a9f8857933839f8420d285c75182c97a9e72f78adaed",
       "publishedAt": "2026-10-28T16:00:21.522Z",
       "notes": "模型清單補上思考等級預設（修 reasoning effort max 被本地擋下）；供應商設定同步"
-    },
-    {
-      "version": "1.9.1",
-      "sha256": "ad54ac2f1cb830fd43cee78cf66bc0dfa126f0432d5e04743de2c5828001243d",
-      "publishedAt": "2026-10-28T15:53:56.128Z",
-      "notes": "1.9.1：附上供應商註冊的測試（涵蓋無 Smart Key 與既有供應商不被覆蓋）"
     }
   ]
 }
