@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.19",
+    "version": "1.9.20",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.19.tgz",
-    "sha256": "0da9e59acda1a88e6fe4dd72bb7609942169bbfd455c5d1dd75b774bccfc6722",
+    "versioned": "aiapi-customizations-1.9.20.tgz",
+    "sha256": "8d1e397813739dfc915c0395c3450998022c7bc34c9350f3a6b842ce1b811156",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-30T15:33:57.537Z",
-    "notes": "白話回覆再收緊：套件名、設定檔名、開關欄位名、縮寫（TTFT、Overhead、Tool Schemas）一律先講人話，識別碼只能放在括號裡；螢幕上的欄位標籤不算解釋",
+    "publishedAt": "2026-10-30T15:35:19.836Z",
+    "notes": "插件頁新增「推薦插件」清單：上下文儀表板、對話軌跡牆、右側檔案欄、手機遠端、任務看板、效能觀測，每列附可複製的安裝規格",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5650431,
-      "sha256": "5489686f1dc9dc403ce70ce876282e57a9c4fb8130f2c5009da7d10a484e1f4c"
+      "bytes": 5654465,
+      "sha256": "5c16770098580a42e7de253c4c8e3ee13e9bb64d1f054b9156daef873be403d8"
     }
   },
   "history": [
+    {
+      "version": "1.9.20",
+      "sha256": "8d1e397813739dfc915c0395c3450998022c7bc34c9350f3a6b842ce1b811156",
+      "publishedAt": "2026-10-30T15:35:19.836Z",
+      "notes": "插件頁新增「推薦插件」清單：上下文儀表板、對話軌跡牆、右側檔案欄、手機遠端、任務看板、效能觀測，每列附可複製的安裝規格"
+    },
     {
       "version": "1.9.19",
       "sha256": "0da9e59acda1a88e6fe4dd72bb7609942169bbfd455c5d1dd75b774bccfc6722",
@@ -131,12 +137,6 @@
       "sha256": "ad54ac2f1cb830fd43cee78cf66bc0dfa126f0432d5e04743de2c5828001243d",
       "publishedAt": "2026-10-28T15:53:56.128Z",
       "notes": "1.9.1：附上供應商註冊的測試（涵蓋無 Smart Key 與既有供應商不被覆蓋）"
-    },
-    {
-      "version": "1.9.0",
-      "sha256": "768b825e6339ef4aa99bea2ed7ca0b6c6994666171018b405e50772babebf421",
-      "publishedAt": "2026-10-28T15:52:34.278Z",
-      "notes": "自動把 AIAPI 註冊成模型供應商（模型頁看得到）；帳號與餘額併入官方「設定→帳號」頁，不再另開側邊欄條目"
     }
   ]
 }
