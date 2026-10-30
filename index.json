@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.18",
+    "version": "1.9.19",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.18.tgz",
-    "sha256": "497fbafe4f1ba2366153803a2e117155ae6a39f2cb0d222935a02605b804c0e2",
+    "versioned": "aiapi-customizations-1.9.19.tgz",
+    "sha256": "0da9e59acda1a88e6fe4dd72bb7609942169bbfd455c5d1dd75b774bccfc6722",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-29T09:02:54.037Z",
-    "notes": "字型設定加了即時預覽（三種角色用實際字型與字級呈現）與「比較字型」清單（每個候選字型用同一句範例排出來，點一下就套用）",
+    "publishedAt": "2026-10-30T15:33:57.537Z",
+    "notes": "白話回覆再收緊：套件名、設定檔名、開關欄位名、縮寫（TTFT、Overhead、Tool Schemas）一律先講人話，識別碼只能放在括號裡；螢幕上的欄位標籤不算解釋",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5649985,
-      "sha256": "b20a8cb2768c162b61fb4f8a0ddc8a7107bca01e73007f2d754d888e239cb92d"
+      "bytes": 5650431,
+      "sha256": "5489686f1dc9dc403ce70ce876282e57a9c4fb8130f2c5009da7d10a484e1f4c"
     }
   },
   "history": [
+    {
+      "version": "1.9.19",
+      "sha256": "0da9e59acda1a88e6fe4dd72bb7609942169bbfd455c5d1dd75b774bccfc6722",
+      "publishedAt": "2026-10-30T15:33:57.537Z",
+      "notes": "白話回覆再收緊：套件名、設定檔名、開關欄位名、縮寫（TTFT、Overhead、Tool Schemas）一律先講人話，識別碼只能放在括號裡；螢幕上的欄位標籤不算解釋"
+    },
     {
       "version": "1.9.18",
       "sha256": "497fbafe4f1ba2366153803a2e117155ae6a39f2cb0d222935a02605b804c0e2",
@@ -131,12 +137,6 @@
       "sha256": "768b825e6339ef4aa99bea2ed7ca0b6c6994666171018b405e50772babebf421",
       "publishedAt": "2026-10-28T15:52:34.278Z",
       "notes": "自動把 AIAPI 註冊成模型供應商（模型頁看得到）；帳號與餘額併入官方「設定→帳號」頁，不再另開側邊欄條目"
-    },
-    {
-      "version": "1.8.9",
-      "sha256": "6041ad00d6b34ff933757d6242752902f129ff0098883e07ef9504a85b303f80",
-      "publishedAt": "2026-10-28T15:38:54.665Z",
-      "notes": "更新後自動重載介面（不必重啟 DSH）；只有 host 端變更才提示重啟"
     }
   ]
 }
