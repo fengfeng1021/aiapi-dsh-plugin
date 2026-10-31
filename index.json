@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.23",
+    "version": "1.9.24",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.23.tgz",
-    "sha256": "88e9f9f97c86ea55ab0acae4d1b16962ad661b3b5255785fa51262561bb3fcab",
+    "versioned": "aiapi-customizations-1.9.24.tgz",
+    "sha256": "3a9aba9992d395c6567f8fd113f59bbd4d1cb6105708086fd0d23c678325ef22",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-31T00:46:43.515Z",
-    "notes": "推薦清單加版本檢查：需要較新 DSH 的插件會直接標示並禁用安裝，避免裝了之後開機卡在等待服務",
+    "publishedAt": "2026-10-31T11:35:09.458Z",
+    "notes": "深色底色從近純黑(#0a0a0a)提亮成石墨灰(#131313)；推薦清單改釘相容版本：手機遠端與任務看板改指 0.4.8（最後一版支援 0.2.1-rc.2）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5658512,
-      "sha256": "cd3169cfbf12f9a7681a6abe0ab2cbd4483e9d53b557843877002c3f76c944fb"
+      "bytes": 5658781,
+      "sha256": "bfe36100e08b0791c153f0c6bb7aab3b10af756d8348ab0cb6589e03a595300c"
     }
   },
   "history": [
+    {
+      "version": "1.9.24",
+      "sha256": "3a9aba9992d395c6567f8fd113f59bbd4d1cb6105708086fd0d23c678325ef22",
+      "publishedAt": "2026-10-31T11:35:09.458Z",
+      "notes": "深色底色從近純黑(#0a0a0a)提亮成石墨灰(#131313)；推薦清單改釘相容版本：手機遠端與任務看板改指 0.4.8（最後一版支援 0.2.1-rc.2）"
+    },
     {
       "version": "1.9.23",
       "sha256": "88e9f9f97c86ea55ab0acae4d1b16962ad661b3b5255785fa51262561bb3fcab",
@@ -131,12 +137,6 @@
       "sha256": "6fe3badb3ae269cc67ff85ad474abd7a86fd65818f57f98a53f817536759a75b",
       "publishedAt": "2026-10-28T16:10:45.222Z",
       "notes": "手動複製資料夾安裝時（沒有 node_modules）也能啟用：schema 依賴缺失自動降級；建議改用 tgz 直連安裝"
-    },
-    {
-      "version": "1.9.4",
-      "sha256": "02d29cd5c9e1223fa2f899c5319b6f5e42eb2a962689671f52a7e682bcbd99aa",
-      "publishedAt": "2026-10-28T16:08:42.483Z",
-      "notes": "修正餘額／錯誤回報請求路徑（改為相對 document.baseURI），修好帳號卡「讀取失敗（回應 400）」"
     }
   ]
 }
