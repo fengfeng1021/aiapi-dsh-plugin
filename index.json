@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.24",
+    "version": "1.9.25",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.24.tgz",
-    "sha256": "3a9aba9992d395c6567f8fd113f59bbd4d1cb6105708086fd0d23c678325ef22",
+    "versioned": "aiapi-customizations-1.9.25.tgz",
+    "sha256": "765d715c6ddc0454f1b5e1c1b2eb6432026ded01f23075218f3ed795076cd3c1",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-31T11:35:09.458Z",
-    "notes": "深色底色從近純黑(#0a0a0a)提亮成石墨灰(#131313)；推薦清單改釘相容版本：手機遠端與任務看板改指 0.4.8（最後一版支援 0.2.1-rc.2）",
+    "publishedAt": "2026-10-31T11:43:40.200Z",
+    "notes": "深色底色再提亮一階到 #1a1a1a，正文由 #eeeeee 降到 #e6e6e6，整體對比從 16:1 收到 13.9:1（長時間閱讀的舒適區間）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5658781,
-      "sha256": "bfe36100e08b0791c153f0c6bb7aab3b10af756d8348ab0cb6589e03a595300c"
+      "bytes": 5658796,
+      "sha256": "9909c06e24a6b29512fe4951886f882686ce725fc1a5a61c494738f116051923"
     }
   },
   "history": [
+    {
+      "version": "1.9.25",
+      "sha256": "765d715c6ddc0454f1b5e1c1b2eb6432026ded01f23075218f3ed795076cd3c1",
+      "publishedAt": "2026-10-31T11:43:40.200Z",
+      "notes": "深色底色再提亮一階到 #1a1a1a，正文由 #eeeeee 降到 #e6e6e6，整體對比從 16:1 收到 13.9:1（長時間閱讀的舒適區間）"
+    },
     {
       "version": "1.9.24",
       "sha256": "3a9aba9992d395c6567f8fd113f59bbd4d1cb6105708086fd0d23c678325ef22",
@@ -131,12 +137,6 @@
       "sha256": "b7c0be2cfd28c167fb339df67a938ab6a2d0d1ba9d62d8ac28c63fb2f5ca5893",
       "publishedAt": "2026-10-28T17:10:03.017Z",
       "notes": "修好：餘額讀取失敗（400）、模型頁看不到 AIAPI、思考等級 max 被擋、手動資料夾安裝無法啟用、帳號卡無限請求、更新提示會要求降版；新增「設定 → AIAPI 帳號」頁（可直接登入）"
-    },
-    {
-      "version": "1.9.5",
-      "sha256": "6fe3badb3ae269cc67ff85ad474abd7a86fd65818f57f98a53f817536759a75b",
-      "publishedAt": "2026-10-28T16:10:45.222Z",
-      "notes": "手動複製資料夾安裝時（沒有 node_modules）也能啟用：schema 依賴缺失自動降級；建議改用 tgz 直連安裝"
     }
   ]
 }
