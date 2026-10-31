@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.25",
+    "version": "1.9.26",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.25.tgz",
-    "sha256": "765d715c6ddc0454f1b5e1c1b2eb6432026ded01f23075218f3ed795076cd3c1",
+    "versioned": "aiapi-customizations-1.9.26.tgz",
+    "sha256": "596dadfb08b4ad98cdc69da472a80dbe16ed45a3c619f3b1ef0c0dfd9c7f5d46",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-31T11:43:40.200Z",
-    "notes": "深色底色再提亮一階到 #1a1a1a，正文由 #eeeeee 降到 #e6e6e6，整體對比從 16:1 收到 13.9:1（長時間閱讀的舒適區間）",
+    "publishedAt": "2026-10-31T11:47:14.654Z",
+    "notes": "深色配色依標準定案：主文對比 12.16:1（背景 #1e1e1e、文字 #dcdcdc），高於 WCAG AAA 的 7:1、低於會刺眼的 15:1，與 VS Code（11.3）與 Material（約 12.5）一致",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5658796,
-      "sha256": "9909c06e24a6b29512fe4951886f882686ce725fc1a5a61c494738f116051923"
+      "bytes": 5658794,
+      "sha256": "3162ed58fb7eb54aac846db2df812cd2389ca749eeeeeef79e153728895edb60"
     }
   },
   "history": [
+    {
+      "version": "1.9.26",
+      "sha256": "596dadfb08b4ad98cdc69da472a80dbe16ed45a3c619f3b1ef0c0dfd9c7f5d46",
+      "publishedAt": "2026-10-31T11:47:14.654Z",
+      "notes": "深色配色依標準定案：主文對比 12.16:1（背景 #1e1e1e、文字 #dcdcdc），高於 WCAG AAA 的 7:1、低於會刺眼的 15:1，與 VS Code（11.3）與 Material（約 12.5）一致"
+    },
     {
       "version": "1.9.25",
       "sha256": "765d715c6ddc0454f1b5e1c1b2eb6432026ded01f23075218f3ed795076cd3c1",
@@ -131,12 +137,6 @@
       "sha256": "728d435f7839cc20816604a6134a9e8da0ca4d180635386864bbad77ddef5178",
       "publishedAt": "2026-10-29T01:42:41.173Z",
       "notes": "修好「setTypeOfService EINVAL」錯誤與餘額一直讀取失敗；AIAPI 帳號與餘額併入「账号与余额」；介面全面改用 DSH 原生元件重新設計；字型改為挑選本機已安裝的字型"
-    },
-    {
-      "version": "1.9.6",
-      "sha256": "b7c0be2cfd28c167fb339df67a938ab6a2d0d1ba9d62d8ac28c63fb2f5ca5893",
-      "publishedAt": "2026-10-28T17:10:03.017Z",
-      "notes": "修好：餘額讀取失敗（400）、模型頁看不到 AIAPI、思考等級 max 被擋、手動資料夾安裝無法啟用、帳號卡無限請求、更新提示會要求降版；新增「設定 → AIAPI 帳號」頁（可直接登入）"
     }
   ]
 }
