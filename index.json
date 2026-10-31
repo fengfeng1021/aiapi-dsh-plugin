@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.22",
+    "version": "1.9.23",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.22.tgz",
-    "sha256": "c51c9440410b0cd0d10ac743d99602c24ab3cac7a94f7abe263a23cf0ee753b8",
+    "versioned": "aiapi-customizations-1.9.23.tgz",
+    "sha256": "88e9f9f97c86ea55ab0acae4d1b16962ad661b3b5255785fa51262561bb3fcab",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-10-30T16:04:40.437Z",
-    "notes": "修正一鍵安裝的錯誤：介面要先宣告會用到 DSH 的安裝服務，否則讀取時直接報 cannot get property 錯誤；現在已宣告",
+    "publishedAt": "2026-10-31T00:46:43.515Z",
+    "notes": "推薦清單加版本檢查：需要較新 DSH 的插件會直接標示並禁用安裝，避免裝了之後開機卡在等待服務",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5656530,
-      "sha256": "2ae82d35d8935b8ea4a803c96f03dcc4e5cc5e350a305c93c628aaee833a0fa8"
+      "bytes": 5658512,
+      "sha256": "cd3169cfbf12f9a7681a6abe0ab2cbd4483e9d53b557843877002c3f76c944fb"
     }
   },
   "history": [
+    {
+      "version": "1.9.23",
+      "sha256": "88e9f9f97c86ea55ab0acae4d1b16962ad661b3b5255785fa51262561bb3fcab",
+      "publishedAt": "2026-10-31T00:46:43.515Z",
+      "notes": "推薦清單加版本檢查：需要較新 DSH 的插件會直接標示並禁用安裝，避免裝了之後開機卡在等待服務"
+    },
     {
       "version": "1.9.22",
       "sha256": "c51c9440410b0cd0d10ac743d99602c24ab3cac7a94f7abe263a23cf0ee753b8",
@@ -131,12 +137,6 @@
       "sha256": "02d29cd5c9e1223fa2f899c5319b6f5e42eb2a962689671f52a7e682bcbd99aa",
       "publishedAt": "2026-10-28T16:08:42.483Z",
       "notes": "修正餘額／錯誤回報請求路徑（改為相對 document.baseURI），修好帳號卡「讀取失敗（回應 400）」"
-    },
-    {
-      "version": "1.9.3",
-      "sha256": "6e58bf0ad713b20c200de42ed86bb2f62651d6f5086bdb79ede1fc0a0014d6a1",
-      "publishedAt": "2026-10-28T16:01:52.929Z",
-      "notes": "思考等級回到 low/high/max（不加 medium、不加 off），供應商設定與模型清單一致"
     }
   ]
 }
