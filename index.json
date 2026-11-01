@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.27",
+    "version": "1.9.28",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.27.tgz",
-    "sha256": "d31f98f228bf2164e99453a5f65fd155af2610bf6507411ec5fe72ad3299bd2e",
+    "versioned": "aiapi-customizations-1.9.28.tgz",
+    "sha256": "dbcfd737ad5eee846a0785557fd858c09877154904c7ded543b3c88008bfcbe0",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-11-01T03:05:40.201Z",
-    "notes": "更新後自動刪掉舊安裝檔：每次下載只留最新那一份（先前累積到 87 MB、22 個檔案），這是預設行為，沒有開關",
+    "publishedAt": "2026-11-01T03:07:09.742Z",
+    "notes": "新增「工作區排序」開關：最近有動靜的工作區自動排到最上面，用 DSH 自己的排序介面改順序，手動拖拉仍然有效",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5659289,
-      "sha256": "3b630e06110e82081e887440c5d155ba51ddc62d417380a6be6e8494ef46ea01"
+      "bytes": 5663664,
+      "sha256": "1dd8d74d7c0682b6e62b7d8bf662b08f0690a5dd90901204027a3fb1cb8b75b2"
     }
   },
   "history": [
+    {
+      "version": "1.9.28",
+      "sha256": "dbcfd737ad5eee846a0785557fd858c09877154904c7ded543b3c88008bfcbe0",
+      "publishedAt": "2026-11-01T03:07:09.742Z",
+      "notes": "新增「工作區排序」開關：最近有動靜的工作區自動排到最上面，用 DSH 自己的排序介面改順序，手動拖拉仍然有效"
+    },
     {
       "version": "1.9.27",
       "sha256": "d31f98f228bf2164e99453a5f65fd155af2610bf6507411ec5fe72ad3299bd2e",
@@ -131,12 +137,6 @@
       "sha256": "8cffb8ea70a7c35941fec7969f7e150ea04c7fec76fbd385a6857ab992db9af8",
       "publishedAt": "2026-10-29T07:34:51.585Z",
       "notes": "手動資料夾載入不再依賴 DSH 內建的 schema 套件（載入失敗時改用內建副本），資料夾不完整會直接說要重裝；1.9.8 其餘功能不變"
-    },
-    {
-      "version": "1.9.8",
-      "sha256": "2aea8f5b9b3d175503e2bbe81fdedba86dff5af464b4f74d982ad8e2ce2e05b0",
-      "publishedAt": "2026-10-29T04:06:08.487Z",
-      "notes": "模型能力（上下文、輸出上限、圖片、思考等級）自動跟隨平台同步，Gemini 等名稱已含思考等級的模型不再顯示等級；模型清單可自動跟隨帳號；字型內建在插件裡；餘額顯示到小數點後三位；設定裡不再出現兩個帳號頁；全新鎏金霓虹動態介面與舊版好用的模型挑選視窗"
     }
   ]
 }
