@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.30",
+    "version": "1.9.31",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.30.tgz",
-    "sha256": "c2a64f495c2816ce05165ece9d7f72b912f84da72ea20f266bfe2a46f4a69e3f",
+    "versioned": "aiapi-customizations-1.9.31.tgz",
+    "sha256": "a19d2b0d01af31002d5dd9cbeddcc0eb51574f8cad88638a01b0a0629f931c02",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-11-01T03:26:17.449Z",
-    "notes": "修正 1.9.29 讓介面功能全空：工作區排序用到的服務改成選用，缺少時只停用那一項，不再讓整個介面插件載入失敗",
+    "publishedAt": "2026-11-01T04:26:47.261Z",
+    "notes": "工作區排序真的生效了：介面上的服務名稱是 workspace（不是 workspaceController），改用對話清單的活動順序對應到所屬工作區，再呼叫官方排序介面把它移到最前面",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5666739,
-      "sha256": "01e0358af4df7e04fbd53ba7653de9cf3b578f957d27b9ed18e4fcb09e5603c1"
+      "bytes": 5667053,
+      "sha256": "5df0724965d8c77e98296b68dceb7defa3594e8b978bb6c5a4d2344a614c51ac"
     }
   },
   "history": [
+    {
+      "version": "1.9.31",
+      "sha256": "a19d2b0d01af31002d5dd9cbeddcc0eb51574f8cad88638a01b0a0629f931c02",
+      "publishedAt": "2026-11-01T04:26:47.261Z",
+      "notes": "工作區排序真的生效了：介面上的服務名稱是 workspace（不是 workspaceController），改用對話清單的活動順序對應到所屬工作區，再呼叫官方排序介面把它移到最前面"
+    },
     {
       "version": "1.9.30",
       "sha256": "c2a64f495c2816ce05165ece9d7f72b912f84da72ea20f266bfe2a46f4a69e3f",
@@ -131,12 +137,6 @@
       "sha256": "32bd2437a454a972f0bdb7438ca4598792bc374223115ece5a6bae4ca45747a5",
       "publishedAt": "2026-10-29T08:20:41.069Z",
       "notes": "回覆內容照 opencode 的做法分色：標題用品牌色、行內程式碼綠、連結橙、引用左線與清單標記品牌色（DSH 本身沒有這些 token，之前整段都是同一個文字色）"
-    },
-    {
-      "version": "1.9.11",
-      "sha256": "53ed55dc1790e8e60b89d9a67018afeb4f95385ed9117af48142af1c860dc97f",
-      "publishedAt": "2026-10-29T07:58:16.414Z",
-      "notes": "更新提示固定在右下角：position:fixed 原本被同一個元素上的卡片樣式（position:relative）蓋掉，提示會掉到畫面左下角被裁掉；1.9.10 的偏好開關不變"
     }
   ]
 }
