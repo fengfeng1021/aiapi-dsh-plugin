@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.29",
+    "version": "1.9.30",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.29.tgz",
-    "sha256": "6d0e44c586d7f6fabe2e40dc2557ea66f1b11dcf8ff4324df47544ff3eafe543",
+    "versioned": "aiapi-customizations-1.9.30.tgz",
+    "sha256": "c2a64f495c2816ce05165ece9d7f72b912f84da72ea20f266bfe2a46f4a69e3f",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-11-01T03:22:08.502Z",
-    "notes": "更新不再卡住：下載與安裝改到背景進行，介面顯示下載百分比；舊安裝檔改在安裝成功後才清，避免 pnpm 讀不到目前指向的檔案",
+    "publishedAt": "2026-11-01T03:26:17.449Z",
+    "notes": "修正 1.9.29 讓介面功能全空：工作區排序用到的服務改成選用，缺少時只停用那一項，不再讓整個介面插件載入失敗",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5666479,
-      "sha256": "c655a9348cdc86c0c18d4085dfca33a7fc94f06046f60ec0855b9d4389fe6229"
+      "bytes": 5666739,
+      "sha256": "01e0358af4df7e04fbd53ba7653de9cf3b578f957d27b9ed18e4fcb09e5603c1"
     }
   },
   "history": [
+    {
+      "version": "1.9.30",
+      "sha256": "c2a64f495c2816ce05165ece9d7f72b912f84da72ea20f266bfe2a46f4a69e3f",
+      "publishedAt": "2026-11-01T03:26:17.449Z",
+      "notes": "修正 1.9.29 讓介面功能全空：工作區排序用到的服務改成選用，缺少時只停用那一項，不再讓整個介面插件載入失敗"
+    },
     {
       "version": "1.9.29",
       "sha256": "6d0e44c586d7f6fabe2e40dc2557ea66f1b11dcf8ff4324df47544ff3eafe543",
@@ -131,12 +137,6 @@
       "sha256": "53ed55dc1790e8e60b89d9a67018afeb4f95385ed9117af48142af1c860dc97f",
       "publishedAt": "2026-10-29T07:58:16.414Z",
       "notes": "更新提示固定在右下角：position:fixed 原本被同一個元素上的卡片樣式（position:relative）蓋掉，提示會掉到畫面左下角被裁掉；1.9.10 的偏好開關不變"
-    },
-    {
-      "version": "1.9.10",
-      "sha256": "80ed013ac69e546c30fe26dff68e4b4d193c4023eacc1288d6d1bd00c9fd1ed6",
-      "publishedAt": "2026-10-29T07:47:44.566Z",
-      "notes": "登入 DeepSeek 後，「账号与余额」頁尾的 AIAPI 區塊也會帶上偏好開關（在側邊欄顯示餘額、自動回報介面錯誤）；之前官方頁存在時插件自己那頁被撤下，這兩個開關整個找不到"
     }
   ]
 }
