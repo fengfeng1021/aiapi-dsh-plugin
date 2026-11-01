@@ -2,22 +2,28 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.31",
+    "version": "1.9.32",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.31.tgz",
-    "sha256": "a19d2b0d01af31002d5dd9cbeddcc0eb51574f8cad88638a01b0a0629f931c02",
+    "versioned": "aiapi-customizations-1.9.32.tgz",
+    "sha256": "6d84a092da614436fcbc15c967023210ba4bf66d4b66bcc2d4806b89caeca982",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-11-01T04:26:47.261Z",
-    "notes": "工作區排序真的生效了：介面上的服務名稱是 workspace（不是 workspaceController），改用對話清單的活動順序對應到所屬工作區，再呼叫官方排序介面把它移到最前面",
+    "publishedAt": "2026-11-01T12:34:46.861Z",
+    "notes": "工作區排序加上自我診斷：插件頁那一列會直接寫出它現在的狀態（運作中／缺哪個介面／對話清單讀不到／只有一個工作區），不再靜默失敗",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5667053,
-      "sha256": "5df0724965d8c77e98296b68dceb7defa3594e8b978bb6c5a4d2344a614c51ac"
+      "bytes": 5670916,
+      "sha256": "d2640c932248377d173debf6591be278e90654796992cbf2f413d481b1490f32"
     }
   },
   "history": [
+    {
+      "version": "1.9.32",
+      "sha256": "6d84a092da614436fcbc15c967023210ba4bf66d4b66bcc2d4806b89caeca982",
+      "publishedAt": "2026-11-01T12:34:46.861Z",
+      "notes": "工作區排序加上自我診斷：插件頁那一列會直接寫出它現在的狀態（運作中／缺哪個介面／對話清單讀不到／只有一個工作區），不再靜默失敗"
+    },
     {
       "version": "1.9.31",
       "sha256": "a19d2b0d01af31002d5dd9cbeddcc0eb51574f8cad88638a01b0a0629f931c02",
@@ -131,12 +137,6 @@
       "sha256": "36f472faf9b2d363af62172febaac6ebac8c7e488b22a90c43082ac4b5426643",
       "publishedAt": "2026-10-29T08:29:48.957Z",
       "notes": "配色對齊 opencode 實際的 markdown 與語法 token：程式碼區塊改用 opencode 的語法色（keyword 紫、string 綠、function 橙），行內程式碼改成淡底，引用與清單標記降為次要色"
-    },
-    {
-      "version": "1.9.12",
-      "sha256": "32bd2437a454a972f0bdb7438ca4598792bc374223115ece5a6bae4ca45747a5",
-      "publishedAt": "2026-10-29T08:20:41.069Z",
-      "notes": "回覆內容照 opencode 的做法分色：標題用品牌色、行內程式碼綠、連結橙、引用左線與清單標記品牌色（DSH 本身沒有這些 token，之前整段都是同一個文字色）"
     }
   ]
 }
