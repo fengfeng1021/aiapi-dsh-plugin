@@ -2,23 +2,29 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.10.0",
+    "version": "1.10.1",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.10.0.tgz",
+    "versioned": "aiapi-customizations-1.10.1.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "51df47f353e46d07559fb1d779ded3016f10f33bb7b0256e0b3a42a4c7032f38",
+    "sha256": "bf05dac5c7ea16c2e0ab8d832e53a2ac394c5e0b4498b205ad7ed24dd1a60d35",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-11-08T05:12:05.145Z",
-    "notes": "新增「無限上下文」特性：模型視角不再管理額度，壓縮檢查點出現時直接續做（預設開啟）",
+    "publishedAt": "2026-11-08T05:23:36.364Z",
+    "notes": "字型：補上繁中優先的後援鏈，修正「有些字沒套用到／掉回簡中字形」；樣本與預覽改用同一條堆疊；終端機補等寬 CJK 後援",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5783605,
-      "sha256": "c30300ea8d17187bc4af7cbd6d1b0020b7e3e43c6d7d030d63085d0a39577ebb"
+      "bytes": 5787562,
+      "sha256": "338d895de97d607a1e7703f8ecc22b22c6e0c200fa75f2233db9669ed35c4c8d"
     }
   },
   "history": [
+    {
+      "version": "1.10.1",
+      "sha256": "bf05dac5c7ea16c2e0ab8d832e53a2ac394c5e0b4498b205ad7ed24dd1a60d35",
+      "publishedAt": "2026-11-08T05:23:36.364Z",
+      "notes": "字型：補上繁中優先的後援鏈，修正「有些字沒套用到／掉回簡中字形」；樣本與預覽改用同一條堆疊；終端機補等寬 CJK 後援"
+    },
     {
       "version": "1.10.0",
       "sha256": "51df47f353e46d07559fb1d779ded3016f10f33bb7b0256e0b3a42a4c7032f38",
@@ -132,12 +138,6 @@
       "sha256": "30c131be75f0f23163530964b605e4d5c2bab2943ae73998ef852403f776f549",
       "publishedAt": "2026-10-29T08:38:56.380Z",
       "notes": "插件頁新增「配色」預覽：標題、粗體、斜體、行內程式碼、引用、清單、程式碼區塊一次顯示，跟回覆共用同一組規則；1.9.14 的 opencode 色票不變"
-    },
-    {
-      "version": "1.9.14",
-      "sha256": "3e6faf6c02b786157c5e48b419a25e70715220cd280491f371f4d88cd4e392a9",
-      "publishedAt": "2026-10-29T08:35:13.107Z",
-      "notes": "回覆配色整套照抄 opencode：標題 accent、粗體 orange、斜體 yellow、行內程式碼 green、引用 yellow、清單標記 step-9、有序編號 cyan，深淺各一套；程式碼語法色同 opencode syntax token"
     }
   ]
 }
