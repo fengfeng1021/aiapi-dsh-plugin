@@ -2,22 +2,29 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.9.32",
+    "version": "1.10.0",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.9.32.tgz",
-    "sha256": "6d84a092da614436fcbc15c967023210ba4bf66d4b66bcc2d4806b89caeca982",
+    "versioned": "aiapi-customizations-1.10.0.tgz",
+    "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
+    "sha256": "51df47f353e46d07559fb1d779ded3016f10f33bb7b0256e0b3a42a4c7032f38",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-11-01T12:34:46.861Z",
-    "notes": "工作區排序加上自我診斷：插件頁那一列會直接寫出它現在的狀態（運作中／缺哪個介面／對話清單讀不到／只有一個工作區），不再靜默失敗",
+    "publishedAt": "2026-11-08T05:12:05.145Z",
+    "notes": "新增「無限上下文」特性：模型視角不再管理額度，壓縮檢查點出現時直接續做（預設開啟）",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5670916,
-      "sha256": "d2640c932248377d173debf6591be278e90654796992cbf2f413d481b1490f32"
+      "bytes": 5783605,
+      "sha256": "c30300ea8d17187bc4af7cbd6d1b0020b7e3e43c6d7d030d63085d0a39577ebb"
     }
   },
   "history": [
+    {
+      "version": "1.10.0",
+      "sha256": "51df47f353e46d07559fb1d779ded3016f10f33bb7b0256e0b3a42a4c7032f38",
+      "publishedAt": "2026-11-08T05:12:05.145Z",
+      "notes": "新增「無限上下文」特性：模型視角不再管理額度，壓縮檢查點出現時直接續做（預設開啟）"
+    },
     {
       "version": "1.9.32",
       "sha256": "6d84a092da614436fcbc15c967023210ba4bf66d4b66bcc2d4806b89caeca982",
@@ -131,12 +138,6 @@
       "sha256": "3e6faf6c02b786157c5e48b419a25e70715220cd280491f371f4d88cd4e392a9",
       "publishedAt": "2026-10-29T08:35:13.107Z",
       "notes": "回覆配色整套照抄 opencode：標題 accent、粗體 orange、斜體 yellow、行內程式碼 green、引用 yellow、清單標記 step-9、有序編號 cyan，深淺各一套；程式碼語法色同 opencode syntax token"
-    },
-    {
-      "version": "1.9.13",
-      "sha256": "36f472faf9b2d363af62172febaac6ebac8c7e488b22a90c43082ac4b5426643",
-      "publishedAt": "2026-10-29T08:29:48.957Z",
-      "notes": "配色對齊 opencode 實際的 markdown 與語法 token：程式碼區塊改用 opencode 的語法色（keyword 紫、string 綠、function 橙），行內程式碼改成淡底，引用與清單標記降為次要色"
     }
   ]
 }
