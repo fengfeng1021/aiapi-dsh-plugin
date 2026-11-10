@@ -2,23 +2,29 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.10.1",
+    "version": "1.11.0",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.10.1.tgz",
+    "versioned": "aiapi-customizations-1.11.0.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "bf05dac5c7ea16c2e0ab8d832e53a2ac394c5e0b4498b205ad7ed24dd1a60d35",
+    "sha256": "3fe387958da764f35b90ad01261540208efe6dde2134844410f82d97b3f0b141",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-11-08T05:23:36.364Z",
-    "notes": "字型：補上繁中優先的後援鏈，修正「有些字沒套用到／掉回簡中字形」；樣本與預覽改用同一條堆疊；終端機補等寬 CJK 後援",
+    "publishedAt": "2026-11-10T01:59:10.677Z",
+    "notes": "自動全協定：Claude 走 anthropic-messages 專用供應商（aiapi-claude），其餘走 openai-completions；同一個 Smart Key",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5787562,
-      "sha256": "338d895de97d607a1e7703f8ecc22b22c6e0c200fa75f2233db9669ed35c4c8d"
+      "bytes": 5788524,
+      "sha256": "141ac01832afd29f503988d28b9bdca8c31887cc589f7f6bd79912b8eb1ebde5"
     }
   },
   "history": [
+    {
+      "version": "1.11.0",
+      "sha256": "3fe387958da764f35b90ad01261540208efe6dde2134844410f82d97b3f0b141",
+      "publishedAt": "2026-11-10T01:59:10.677Z",
+      "notes": "自動全協定：Claude 走 anthropic-messages 專用供應商（aiapi-claude），其餘走 openai-completions；同一個 Smart Key"
+    },
     {
       "version": "1.10.1",
       "sha256": "bf05dac5c7ea16c2e0ab8d832e53a2ac394c5e0b4498b205ad7ed24dd1a60d35",
@@ -132,12 +138,6 @@
       "sha256": "102665ca275308c1456ff3f6735cb40da2850b252a509f156049a974842d81cd",
       "publishedAt": "2026-10-29T08:46:30.721Z",
       "notes": "回覆裡的 hex 色碼（#9d7cd8 這種）直接用該顏色顯示；程式碼區塊內的不動，仍交給語法高亮"
-    },
-    {
-      "version": "1.9.15",
-      "sha256": "30c131be75f0f23163530964b605e4d5c2bab2943ae73998ef852403f776f549",
-      "publishedAt": "2026-10-29T08:38:56.380Z",
-      "notes": "插件頁新增「配色」預覽：標題、粗體、斜體、行內程式碼、引用、清單、程式碼區塊一次顯示，跟回覆共用同一組規則；1.9.14 的 opencode 色票不變"
     }
   ]
 }
