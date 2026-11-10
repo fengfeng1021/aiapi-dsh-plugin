@@ -2,23 +2,29 @@
   "schema": 1,
   "name": "@aiapi/dsh-customizations",
   "latest": {
-    "version": "1.11.0",
+    "version": "1.11.1",
     "tarball": "latest.tgz",
-    "versioned": "aiapi-customizations-1.11.0.tgz",
+    "versioned": "aiapi-customizations-1.11.1.tgz",
     "spec": "https://fengfeng1021.github.io/aiapi-dsh-plugin/latest.tgz",
-    "sha256": "3fe387958da764f35b90ad01261540208efe6dde2134844410f82d97b3f0b141",
+    "sha256": "dde85544927add0d9e770648d4ea6c4ed17ddfc88e3e603680a024b60c8b6ab9",
     "engines": {
       "dsh": ">=0.2.1-rc.2 <0.4.0"
     },
-    "publishedAt": "2026-11-10T01:59:10.677Z",
-    "notes": "自動全協定：Claude 走 anthropic-messages 專用供應商（aiapi-claude），其餘走 openai-completions；同一個 Smart Key",
+    "publishedAt": "2026-11-10T02:22:51.467Z",
+    "notes": "回復單一 AIAPI 供應商：Claude 與其他模型都掛在同一張卡（AIAPI 會把 chat/completions 轉成 Anthropic 上游）；1.11.0 留下的 aiapi-claude 自動收回",
     "zip": {
       "file": "latest.zip",
-      "bytes": 5788524,
-      "sha256": "141ac01832afd29f503988d28b9bdca8c31887cc589f7f6bd79912b8eb1ebde5"
+      "bytes": 5787892,
+      "sha256": "485ab1f11029701e1133cc3cd7f9f7d1e3efbb3e0f7e95a498873f4506d77b76"
     }
   },
   "history": [
+    {
+      "version": "1.11.1",
+      "sha256": "dde85544927add0d9e770648d4ea6c4ed17ddfc88e3e603680a024b60c8b6ab9",
+      "publishedAt": "2026-11-10T02:22:51.467Z",
+      "notes": "回復單一 AIAPI 供應商：Claude 與其他模型都掛在同一張卡（AIAPI 會把 chat/completions 轉成 Anthropic 上游）；1.11.0 留下的 aiapi-claude 自動收回"
+    },
     {
       "version": "1.11.0",
       "sha256": "3fe387958da764f35b90ad01261540208efe6dde2134844410f82d97b3f0b141",
@@ -132,12 +138,6 @@
       "sha256": "bc67cb021cf86a201f77d0cde1c0d8334076b8e81619f0e26c822925ff553b54",
       "publishedAt": "2026-10-29T08:54:34.405Z",
       "notes": "「白話回覆」原本把白話寫成「少用標題、少用清單」，結果變成大段文字堆砌。現在拆成兩個互不干擾的要求：用詞白話、但該用標題分段／清單表格呈現並列資訊／程式碼進區塊"
-    },
-    {
-      "version": "1.9.16",
-      "sha256": "102665ca275308c1456ff3f6735cb40da2850b252a509f156049a974842d81cd",
-      "publishedAt": "2026-10-29T08:46:30.721Z",
-      "notes": "回覆裡的 hex 色碼（#9d7cd8 這種）直接用該顏色顯示；程式碼區塊內的不動，仍交給語法高亮"
     }
   ]
 }
